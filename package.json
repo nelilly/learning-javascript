@@ -1,0 +1,27 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "A 12 week introduction to JavaScript curriculum for weekly JavaScript Discussion Group sessions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nelilly/learning-javascript.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "nelilly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nelilly/learning-javascript/issues"
+  },
+  "homepage": "https://github.com/nelilly/learning-javascript#readme",
+  "devDependencies": {
+    "eslint": "^8.51.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.1"
+  }
+}
