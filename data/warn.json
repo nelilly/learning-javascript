@@ -1,0 +1,3224 @@
+[
+  {
+    "entry": "June 2014",
+    "data": [
+      {
+        "title": "Kindred Hospital - Pittsburgh-North Shore, LLC",
+        "county": "Allegheny",
+        "employees": "152",
+        "date": "7/31/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "Sabre Industries, Inc.",
+        "county": "Lawrence",
+        "employees": "80",
+        "date": "Between July 29 and August 13, 2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "*UPDATE* Lockheed Martin",
+        "county": "Bucks",
+        "employees": "14",
+        "date": "7/31/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "Source Interlink Distribution LLC",
+        "county": "Lancaster",
+        "employees": "119",
+        "date": "5/30/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "Community Development Institute Head Start",
+        "county": "Philadelphia",
+        "employees": "57",
+        "date": "7/31/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "U.S. Steel Tubular Products, Inc.",
+        "county": "Allegheny",
+        "employees": "183",
+        "date": "8/3/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "Humbert Lane Nursing & Rehabilitation Centre",
+        "county": "Washington",
+        "employees": "?",
+        "date": "60-day Notice of Sale",
+        "type": "Layoff"
+      },
+      {
+        "title": "EveryWare Global Inc.",
+        "county": "Beaver",
+        "employees": "446",
+        "date": "8/14/2014",
+        "type": "Layoff"
+      }
+    ]
+  },
+  {
+    "entry": "May 2014",
+    "data": [
+      {
+        "title": "United Rehabilitation Services",
+        "county": "Luzerne",
+        "employees": "292",
+        "date": "6/18/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "*UPDATE* Johnson Controls, Inc.",
+        "county": "Franklin",
+        "employees": "204",
+        "date": "Separation to occur over 18 waves between April 7, 2014, through October 15, 2015",
+        "type": "Layoff"
+      },
+      {
+        "title": "*UPDATE* Lockheed Martin",
+        "county": "Bucks",
+        "employees": "20",
+        "date": "6/27/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "Peckville Hospital, LLC d/b/a",
+        "county": "Lackawanna",
+        "employees": "115",
+        "date": "7/1/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "*UPDATE* RR Donnelley",
+        "county": "Berks",
+        "employees": "72",
+        "date": "5/31/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "*UPDATE* Verizon Wireless Facility",
+        "county": "Butler",
+        "employees": "55",
+        "date": "6/20/2014 through 9/26/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "*UPDATE* Bank of America",
+        "county": "Allegheny",
+        "employees": "46",
+        "date": "7/7/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "First Student",
+        "county": "Allegheny",
+        "employees": "79",
+        "date": "6/30/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "Louis F. Leeper Company",
+        "county": "Allegheny",
+        "employees": "165",
+        "date": "6/26/2014 through 7/10/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "Philly Auto Labor Services, LLC",
+        "county": "Philadelphia",
+        "date": "7/21/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "Acosta Sales & Marketing",
+        "county": "Allegheny",
+        "employees": "54",
+        "date": "7/21/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "Pittsburgh Post-Gazette",
+        "county": "Allegheny",
+        "employees": "136",
+        "date": "7/28/2014",
+        "type": "Layoff"
+      }
+    ]
+  },
+  {
+    "entry": "April 2014",
+    "data": [
+      {
+        "title": "Souria",
+        "county": "York",
+        "employees": "53",
+        "date": "12/31/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "*UPDATE* NRG Energy, Inc.",
+        "county": "Berks",
+        "employees": "53",
+        "date": "5/30/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "RR Donnelley",
+        "county": "Berks",
+        "employees": "70",
+        "date": "5/31/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "*UPDATE* Lockheed Martin",
+        "county": "Bucks",
+        "employees": "8",
+        "date": "5/30/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "Lehigh Valley Medi Group",
+        "county": "Northampton",
+        "employees": "87",
+        "date": "4/4/2014 - 9/7/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "Hibu",
+        "county": "Montgomery",
+        "employees": "65",
+        "date": "4/4/2014 - 6/6/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "American Signature Inc.",
+        "county": "York",
+        "employees": "91",
+        "date": "6/6/2014 - 6/13/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "American College of Radiology",
+        "county": "Philadelphia",
+        "employees": "23",
+        "date": "4/9/2014",
+        "type": "Layoff"
+      }
+    ]
+  },
+  {
+    "entry": "March 2014",
+    "data": [
+      {
+        "title": "CLARCOR Air Filtration Products, Inc.",
+        "county": "Luzerne",
+        "employees": "62",
+        "date": "4/28/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "Sykes",
+        "county": "Columbia",
+        "employees": "79",
+        "date": "5/2/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "QBE North America",
+        "county": "Allegheny",
+        "employees": "59",
+        "date": "5/9/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "Osram Sylvania, Inc.",
+        "county": "York",
+        "employees": "Provided at later date",
+        "date": "7/1/2014 through 9/30/2014",
+        "type": "Layoff"
+      }
+    ]
+  },
+  {
+    "entry": "February 2014",
+    "data": [
+      {
+        "title": "Graham Packaging Company, L.P.",
+        "county": "York",
+        "employees": "55",
+        "date": "Between 3/24/2014, 5/30/2014 and 7/15/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "Kindred Hospital - Easton",
+        "county": "Northampton",
+        "employees": "105",
+        "date": "3/29/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "Gamesa Wind US, LLC",
+        "county": "Cambria",
+        "employees": "62",
+        "date": "3/31/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "Packer Sanitation Services, Inc.",
+        "county": "Lebanon",
+        "employees": "40",
+        "date": "Between 3/14/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "Schenker, Inc.",
+        "county": "Lehigh",
+        "employees": "223",
+        "date": "3/28/2014, 4/25/2014 and 7/31/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "Johnson Controls, Inc.",
+        "county": "Franklin",
+        "employees": "203",
+        "date": "Between 4/7/2014 and 10/15/2015",
+        "type": "Layoff"
+      },
+      {
+        "title": "Wilkes-Barre General Hospital, LLC",
+        "county": "Luzerne",
+        "employees": "87",
+        "date": "4/11/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "Cumberland Farms, Inc.",
+        "county": "Berks, Bucks, Chester, Montgomery",
+        "employees": "68",
+        "date": "4/15/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "*UPDATE* Orograin Bakeries Manufacturing, Inc.",
+        "county": "Northampton",
+        "employees": "51",
+        "date": "3/28/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "*UPDATE* NRG Energy, Inc.",
+        "county": "Berks",
+        "employees": "43",
+        "date": " 4/15/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "Comcast",
+        "county": "Philadelphia",
+        "employees": "141",
+        "date": "Between 4/21/2014 and 5/4/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "*UPDATE* Lockheed Martin",
+        "county": "Bucks",
+        "employees": "18",
+        "date": "4/24/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "*UPDATE* Horsehead",
+        "county": "Beaver",
+        "employees": "510",
+        "date": "3/1/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "Verizon Wireless BGCO",
+        "county": "Allegheny",
+        "employees": "433 Total, Verizon 229, Telesales 199, HR 5",
+        "date": "5/8/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "Verizon Wireless",
+        "county": "Butler",
+        "employees": "626",
+        "date": "5/8/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "General Dynamics - OTS (Pennsylvania), Inc.",
+        "county": "Lackawanna",
+        "employees": "65",
+        "date": "Between 4/30/2014 and 5/30/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "Berkeley Contract Packaging, LLC.",
+        "county": "Cumberland",
+        "employees": "215",
+        "date": "4/25/2014",
+        "type": "Layoff"
+      }
+    ]
+  },
+  {
+    "entry": "January 2014",
+    "data": [
+      {
+        "title": "ATOS IT Solutions and Services, Inc.",
+        "county": "Lackawanna",
+        "employees": "26",
+        "date": "2/28/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "*UPDATE* GE Power & Water",
+        "county": "Allegheny",
+        "employees": "65",
+        "date": "2/28/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "*UPDATE* Horsehead",
+        "county": "Beaver",
+        "employees": "510",
+        "date": "3/1/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "*UPDATE* Orograin Bakeries Manufacturing, Inc.",
+        "county": "Northampton",
+        "employees": "60",
+        "date": "2/14/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "West Point Products Acquisition, LLC",
+        "county": "Washington",
+        "employees": "93",
+        "date": "3/7/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "Macy’s",
+        "county": "Allegheny",
+        "employees": "69",
+        "date": "Between 3/12/2014 and 3/25/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "Unilever",
+        "county": "Dauphin",
+        "employees": "45",
+        "date": "3/15/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "Coleman Natural Foods",
+        "county": "Lebanon",
+        "employees": "658",
+        "date": "3/14/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "General Dynamics C4 Systems",
+        "county": "York",
+        "employees": "51",
+        "date": "Between 3/14/2014 and 3/28/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "Lockheed Martin",
+        "county": "Bucks",
+        "employees": "12",
+        "date": "3/13/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "Merck Sharp & Dohme Corp",
+        "county": "Montgomery",
+        "employees": "114",
+        "date": "3/31/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "American LaFrance, LLC",
+        "county": "Lancaster",
+        "employees": "48",
+        "date": "Between 1/17/2014 and 2/4/2014",
+        "type": "Layoff"
+      }
+    ]
+  },
+  {
+    "entry": "December 2013",
+    "data": [
+      {
+        "title": "Kampack, Inc.",
+        "county": "Bucks",
+        "employees": "70",
+        "date": "12/31/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "Dubois Logistics LLC",
+        "county": "Clearfield",
+        "employees": "193",
+        "date": "Between 2/23/2014 and 3/8/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "Merck",
+        "county": "Montgomery",
+        "employees": "152",
+        "date": "2/3/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "Ocwen Financial Corporation",
+        "county": "Montgomery",
+        "employees": "243",
+        "date": "Between 1/31/2014 and 7/31/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "*UPDATE* SB Capital Acquisition, LLC",
+        "county": "Berks",
+        "employees": "66",
+        "date": "12/18/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "Walgreens Bethlehem Distribution",
+        "county": "Lehigh",
+        "employees": "453",
+        "date": "Between 1/17/2014 and 4/30/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "*UPDATE* Travelocity.com LP",
+        "county": "Luzerne",
+        "employees": "85",
+        "date": "12/13/2013",
+        "type": "Layoff"
+      }
+    ]
+  },
+  {
+    "entry": "November 2013",
+    "data": [
+      {
+        "title": "Bank of America",
+        "county": "Allegheny",
+        "employees": "8",
+        "date": "12/22/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "NCO Financial Systems, Inc.",
+        "county": "Montgomery",
+        "employees": "93",
+        "date": "Between 10/29/2013 and 12/28/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "Windsor Foods",
+        "county": "Columbia",
+        "employees": "142",
+        "date": "2/28/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "Catapult Technology",
+        "county": "Franklin",
+        "employees": "57",
+        "date": "11/16/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "CenturyLink",
+        "county": "Cumberland",
+        "employees": "60",
+        "date": "1/17/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "Horsehead Corporation",
+        "county": "Beaver",
+        "employees": "510",
+        "date": "12/31/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "Mitsubishi Nuclear Energy System, Inc.",
+        "county": "Allegheny",
+        "employees": "1",
+        "date": "12/31/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "Bradford Housing Authority",
+        "county": "McKean",
+        "employees": "8",
+        "date": "Between 1/1/2014 and 1/14/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "Bimbo Bakeries",
+        "county": "Northampton",
+        "employees": "151",
+        "date": "1/3/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "Atlantic Express Transportation Corp.",
+        "county": "Philadelphia",
+        "employees": "518",
+        "date": "12/31/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "Iron Mountain",
+        "county": "Montgomery",
+        "employees": "150",
+        "date": "11/5/2013",
+        "type": "Layoff"
+      }
+    ]
+  },
+  {
+    "entry": "October 2013",
+    "data": [
+      {
+        "title": "Merck & Co., Inc.",
+        "county": "Montgomery",
+        "employees": "500",
+        "date": "12/23/2013 through 1/5/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "Pennsylvania Mentor",
+        "county": "Philadelphia",
+        "employees": "200",
+        "date": "1/1/2014",
+        "type": "Layoff"
+      },
+      {
+        "title": "SB Capital Acquisition, LLC",
+        "county": "Berks",
+        "employees": "66",
+        "date": "11/30/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "Customer Based Transportation, Inc.",
+        "county": "Schuylkill",
+        "employees": "7",
+        "date": "12/8/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "General Nutrition Companies, Inc.",
+        "county": "Allegheny",
+        "employees": "60",
+        "date": "10/11/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "Travelocity.com LP",
+        "county": "Luzerne",
+        "employees": "77",
+        "date": "12/13/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "*UPDATE* NRG Energy, Inc.",
+        "county": "Berks",
+        "employees": "43",
+        "date": "10/31/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "BAE Systems, Inc.",
+        "county": "Fayette",
+        "employees": "45",
+        "date": "12/3/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "Kloeckner Metals Corporation",
+        "county": "Bucks",
+        "employees": "69",
+        "date": "10/1/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "Best Western",
+        "county": "Philadelphia",
+        "employees": "56",
+        "date": "12/1/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "Cressler Trucking, Inc.",
+        "county": "Cumberland",
+        "employees": "81",
+        "date": "11/11/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "Westfield Hospital and Westfield Surgery Center",
+        "county": "Lehigh",
+        "employees": "70",
+        "date": "12/13/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "American Bridge",
+        "county": "Allegheny",
+        "employees": "77",
+        "date": "12/9/2013",
+        "type": "Layoff"
+      }
+    ]
+  },
+  {
+    "entry": "September 2013",
+    "data": [
+      {
+        "title": "GE Transportation",
+        "county": "Erie",
+        "employees": "500",
+        "date": "11/4/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "*UPDATE* Citizens Bank",
+        "county": "Philadelphia",
+        "employees": "86",
+        "date": "11/8/2013",
+        "type": "Closing"
+      }
+    ]
+  },
+  {
+    "entry": "August 2013",
+    "data": [
+      {
+        "title": "Landauer Metropolitan, Inc",
+        "county": "Lehigh, Dauphin, Lancaster, Monroe, Berks , Luzerne, York, Lycoming, Philadelphia",
+        "employees": "149",
+        "date": "10/8/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "1069 Hanover Street",
+        "county": "Lehigh, Dauphin, Lancaster, Monroe, Berks , Luzerne, York, Lycoming, Philadelphia",
+        "employees": "149",
+        "date": "10/8/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "NRG Energy, Inc.",
+        "county": "Berks",
+        "employees": "28",
+        "date": "April 2015 - Changed to 9/1/2013, Release to occur between 10/31/2013 and 11/13/2013.",
+        "type": "Closing"
+      },
+      {
+        "title": "Benecard, PBF, Inc.",
+        "county": "Cumberland",
+        "employees": "48",
+        "date": "9/3/2013",
+        "type": "Closing"
+      },
+      {
+        "title": "Direct Energy, Inc.",
+        "employees": "62",
+        "date": "11/1/2013",
+        "type": "Closing"
+      },
+      {
+        "title": "PolyOne",
+        "county": "Washington",
+        "employees": "128",
+        "date": "11/1/2013 and complete around 10/31/2014",
+        "type": "Closing"
+      }
+    ]
+  },
+  {
+    "entry": "July 2013",
+    "data": [
+      {
+        "title": "NE Opco, Inc.",
+        "county": "Westmoreland",
+        "employees": "418",
+        "date": "September 2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "NE Opco, Inc.",
+        "county": "Chester",
+        "employees": "102",
+        "date": "September 2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "First Student",
+        "county": "Bucks",
+        "employees": "117",
+        "date": "6/30/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "Citizens Bank",
+        "county": "Philadelphia",
+        "employees": "87",
+        "date": "8/28/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "Bank of America",
+        "county": "Allegheny",
+        "employees": "209",
+        "date": "9/30/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "Arris Solutions, Inc.",
+        "county": "Centre",
+        "employees": "54",
+        "date": "8/31/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "West Point Products Acquisition, LLC",
+        "county": "Washington",
+        "employees": "79",
+        "date": "9/6/2013",
+        "type": "Layoff"
+      }
+    ]
+  },
+  {
+    "entry": "June 2013",
+    "data": [
+      {
+        "title": "Sure Fit, Inc.",
+        "county": "Lehigh",
+        "employees": "75",
+        "date": "8/2/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "Holiday Inn",
+        "county": "Allegheny",
+        "date": "7/18/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "Abraxas II and Erie Residential Mental Health",
+        "county": "Erie",
+        "employees": "63",
+        "date": "7/19/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "Aramark Educational Services, LLC",
+        "county": "Allegheny",
+        "employees": "358",
+        "date": "8/6/2013",
+        "type": "Layoff"
+      }
+    ]
+  },
+  {
+    "entry": "May 2013",
+    "data": [
+      {
+        "title": "PVH Corp.",
+        "county": "Blair and Huntingdon",
+        "employees": "422",
+        "date": "7/31/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "Direct Brands Inc.",
+        "county": "Cumberland",
+        "employees": "59",
+        "date": "7/8/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "Montgomery County Head Start",
+        "county": "Montgomery",
+        "employees": "All",
+        "date": "6/21/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "Community Development Institute",
+        "county": "Beaver",
+        "employees": "136",
+        "date": "7/15/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "TEVA Pharmaceuticals USA, Inc.",
+        "county": "Bucks",
+        "employees": "40",
+        "date": "6/14/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "First Transit, Inc.",
+        "county": "Washington",
+        "employees": "51",
+        "date": "7/1/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "Sodexo, Inc.",
+        "county": "Northampton",
+        "employees": "170",
+        "date": "7/1/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "Honeywell Process Solutions",
+        "county": "York",
+        "employees": "110",
+        "date": "Will start between August 2013 and March 2014",
+        "type": "Layoff"
+      }
+    ]
+  },
+  {
+    "entry": "April 2013",
+    "data": [
+      {
+        "title": "First Transit, Inc.",
+        "county": "Philadelphia",
+        "employees": "340",
+        "date": "5/24/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "Johnstown Specialty Casting Inc.",
+        "county": "Cambria",
+        "employees": "60",
+        "date": "5/31/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "BMW of North America, LLC",
+        "county": "Northampton",
+        "employees": "95",
+        "date": "6/28/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "School Specialty, Inc.",
+        "county": "Lancaster",
+        "employees": "148",
+        "date": "5/13/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "General Dynamics",
+        "county": "Lackawanna",
+        "employees": "191",
+        "date": "6/30/2013",
+        "type": "Layoff"
+      }
+    ]
+  },
+  {
+    "entry": "March 2013",
+    "data": [
+      {
+        "title": "Vincentian Regency",
+        "county": "Allegheny",
+        "employees": "100",
+        "date": "3/21/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "Consumer - Home Solutions",
+        "county": "Allegheny",
+        "employees": "108",
+        "date": "3/15/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "GBS Global Customer Service;",
+        "county": "Allegheny",
+        "employees": "77",
+        "date": "3/15/2013",
+        "type": "Layoff"
+      }
+    ]
+  },
+  {
+    "entry": "February 2013",
+    "data": [
+      {
+        "title": "Vincentian Regency",
+        "county": "Allegheny",
+        "employees": "100",
+        "date": "3/21/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "Johnstown Specialty Casting, Inc.",
+        "county": "Cambria",
+        "employees": "36",
+        "date": "3/4/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "HarperCollins Publishers LLC",
+        "county": "Lackawanna",
+        "employees": "217",
+        "date": "4/1/2013 through 9/30/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "Lincoln University",
+        "county": "Chester",
+        "employees": "71",
+        "date": "4/8/2013 through 4/21/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "Teleperformance",
+        "county": "Fayette",
+        "employees": "261",
+        "date": "4/2/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "Secured Lending Services",
+        "county": "Allegheny",
+        "employees": "82",
+        "date": "4/2/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "Exco Resources LLC",
+        "county": "Allegheny",
+        "employees": "70",
+        "date": "4/5/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "PowerLink Settlement Services, L.P.",
+        "county": "Allegheny",
+        "employees": "125",
+        "date": "4/8/2013",
+        "type": "Layoff"
+      }
+    ]
+  },
+  {
+    "entry": "January 2013",
+    "data": [
+      {
+        "title": "Edmund Optics Inc.",
+        "county": "Montgomery",
+        "employees": "38",
+        "date": "3/31/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "K-mart",
+        "county": "Bucks",
+        "employees": "85",
+        "date": "3/10/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "AECOM Government Services Inc.",
+        "county": "Franklin",
+        "employees": "130",
+        "date": "1/18/2013 through 3/22/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "AREVA Solar Inc.",
+        "county": "Philadelphia",
+        "employees": "7",
+        "date": "3/18/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "Owens-Illinois Inc.",
+        "county": "Jefferson",
+        "employees": "77",
+        "date": "4/30/2013",
+        "type": "Layoff"
+      }
+    ]
+  },
+  {
+    "entry": "December 2012",
+    "data": [
+      {
+        "title": "Medecision",
+        "county": "Chester",
+        "employees": "85",
+        "date": "2/1/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "Cenveo",
+        "county": "Chester",
+        "employees": "73",
+        "date": "2/2/2013",
+        "type": "Closing"
+      },
+      {
+        "title": "U.S. Steel Tubular Products",
+        "county": "Allegheny",
+        "employees": "92",
+        "date": "12/2/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Yellow Pages Group LLC",
+        "county": "Montgomery",
+        "employees": "69",
+        "date": "1/31/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "FCI USA, LLC",
+        "employees": "175",
+        "date": "1/31/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "National Real Estate Information Services",
+        "county": "Allegheny",
+        "employees": "215",
+        "date": "2/15/2013",
+        "type": "Closing"
+      },
+      {
+        "title": "Vincentian Regency",
+        "county": "Allegheny",
+        "employees": "62",
+        "date": "2/17/2013",
+        "type": "Layoff"
+      },
+      {
+        "title": "Exide Technologies Reading Recycling Plant",
+        "county": "Berks",
+        "employees": "150",
+        "date": "2/22/2013",
+        "type": "Closing"
+      },
+      {
+        "title": "Gamesa",
+        "county": "Bucks",
+        "employees": "43",
+        "date": "12/20/2012",
+        "type": "Layoff"
+      }
+    ]
+  },
+  {
+    "entry": "November 2012",
+    "data": [
+      {
+        "title": "CemcoLift Elevator Systems",
+        "county": "Montgomery",
+        "date": "11/30/2012 (Update)",
+        "type": "Layoff"
+      },
+      {
+        "title": "Sears Holdings Corporation",
+        "county": "Allegheny",
+        "employees": "13",
+        "date": "1/7/2013",
+        "type": "Closing"
+      },
+      {
+        "title": "Milton Logistics LLC",
+        "county": "Northumberland",
+        "employees": "48",
+        "date": "1/5/2013",
+        "type": "Closing"
+      },
+      {
+        "title": "Delphi",
+        "county": "Huntingdon",
+        "employees": "50",
+        "date": "12/31/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Pentec Health",
+        "county": "Delaware",
+        "employees": "39",
+        "date": "1/12/2013",
+        "type": "Closing"
+      },
+      {
+        "title": "Frensenius Medical Services",
+        "county": "Lehigh",
+        "employees": "92",
+        "date": "1/14/2013",
+        "type": "Closing"
+      },
+      {
+        "title": "GENCO",
+        "county": "Lebanon",
+        "employees": "70",
+        "date": "1/18/2013",
+        "type": "Closing"
+      },
+      {
+        "title": "CEMCOLIFT",
+        "county": "Montgomery",
+        "employees": "2",
+        "date": "1/31/2013",
+        "type": "Closing"
+      }
+    ]
+  },
+  {
+    "entry": "October 2012",
+    "data": [
+      {
+        "title": "New York Wire",
+        "county": "York",
+        "employees": "170",
+        "date": "Not Available",
+        "type": "Layoff"
+      },
+      {
+        "title": "Ricoh Americas Corp.",
+        "county": "Philadelphia",
+        "employees": "53",
+        "date": "11/29/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Personalized Distribution Systems, Inc.",
+        "county": "Washington",
+        "employees": "114",
+        "date": "12/15/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Sears Holdings Corporation",
+        "county": "Allegheny",
+        "employees": "124",
+        "date": "1/7/2013",
+        "type": "Closing"
+      },
+      {
+        "title": "Sears Holdings Corporation",
+        "county": "Allegheny",
+        "employees": "13",
+        "date": "1/7/2013",
+        "type": "Closing"
+      },
+      {
+        "title": "Coll Materials Group",
+        "county": "Lehigh",
+        "employees": "47",
+        "date": "12/31/2012",
+        "type": "Closing"
+      }
+    ]
+  },
+  {
+    "entry": "September 2012",
+    "data": [
+      {
+        "title": "Willow Valley Inn & Suites",
+        "county": "Lancaster",
+        "employees": "175",
+        "date": "11/12/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Thermo Fisher Scientific Inc.",
+        "county": "Bucks",
+        "employees": "75",
+        "date": "11/2/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "URS Federal Services",
+        "county": "Monroe",
+        "employees": "74",
+        "date": "9/21/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Alloy Surfaces Company Inc.",
+        "county": "Delaware",
+        "employees": "145",
+        "date": "11/5/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Regional Elite Airline Services",
+        "county": "Lehigh",
+        "employees": "49",
+        "date": "11/13/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Hostess Brands Inc.",
+        "county": "Various counties",
+        "employees": "683",
+        "date": "10/5/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "The Devereux Foundation",
+        "county": "Chester",
+        "employees": "153",
+        "date": "9/30/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Kmart Corporation",
+        "county": "Allegheny",
+        "employees": "54",
+        "date": "1/6/2013",
+        "type": "Closing"
+      },
+      {
+        "title": "PNC Financial Services Group",
+        "county": "Venango",
+        "employees": "128",
+        "date": "11/16/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Evergreen Aviation Ground Logistics",
+        "county": "Philadelphia",
+        "employees": "13",
+        "date": "10/31/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Evergreen Aviation Ground Logistics",
+        "county": "Philadelphia",
+        "employees": "13",
+        "date": "9/14/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Rock Tenn Company",
+        "county": "Philadelphia",
+        "employees": "40",
+        "date": "10/1/2012",
+        "type": "Closing"
+      }
+    ]
+  },
+  {
+    "entry": "August 2012",
+    "data": [
+      {
+        "title": "Computershare",
+        "county": "Allegheny",
+        "employees": "156",
+        "date": "9/30/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "The Haven Group Inc.",
+        "county": "Snyder",
+        "employees": "107",
+        "date": "9/25/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Sykes Enterprises Inc.",
+        "county": "Bucks",
+        "employees": "183",
+        "date": "10/10/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Dove Industries Inc.",
+        "county": "Luzerne",
+        "employees": "106",
+        "date": "8/13/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Brockway Mould Inc.",
+        "employees": "54",
+        "date": "10/13/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Federal Reserve Bank of Cleveland",
+        "employees": "20",
+        "date": "10/15/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "General Dynamics",
+        "employees": "60",
+        "date": "10/15/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Regional Elite Airline Services",
+        "employees": "46",
+        "date": "10/23/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Aramark Healthcare @ Geisinger",
+        "employees": "117",
+        "date": "8/31/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "CemcoLift, Inc.",
+        "employees": "96",
+        "date": "10/31/2012",
+        "type": "Closing"
+      }
+    ]
+  },
+  {
+    "entry": "July 2012",
+    "data": [
+      {
+        "title": "Day Timers, Inc.",
+        "county": "Lehigh",
+        "employees": "288",
+        "date": "9/1/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Fashion Bug Retail Companies",
+        "county": "Bucks",
+        "employees": "218",
+        "date": "8/31/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Specialty Hospital of Philadelphia, Inc.",
+        "county": "Delaware",
+        "employees": "74",
+        "date": "8/24/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Sykes Enterprises, Inc.",
+        "county": "Bucks",
+        "employees": "102",
+        "date": "8/26/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Verizon Services Corp.",
+        "county": "Chester",
+        "employees": "98",
+        "date": "8/21/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Fiberblades, LLC",
+        "county": "Cambria",
+        "employees": "73",
+        "date": "9/2/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "First Energy Generation Corp.",
+        "county": "Armstrong",
+        "employees": "63",
+        "date": "9/1/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Gamesa Wind PA, LLC",
+        "county": "Bucks",
+        "employees": "92",
+        "date": "9/2/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "WS Packaging Group, Inc",
+        "county": "Venango",
+        "employees": "55",
+        "date": "8/31/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Port Authority of Allegheny County",
+        "county": "Allegheny",
+        "employees": "518",
+        "date": "9/1/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Lancaster Preferred Partners",
+        "county": "Lancaster",
+        "employees": "211",
+        "date": "9/7/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Reading Truck Body, LLC",
+        "county": "Lancaster",
+        "employees": "69",
+        "date": "9/8/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Xanodyne Pharmaceuticals, Inc.",
+        "county": "N/A",
+        "employees": "2",
+        "date": "8/20/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Orograin Bakeries Manufacturing, Inc.",
+        "county": "Dauphin",
+        "employees": "64",
+        "date": "9/11/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Sykes Enterprises, Inc.",
+        "county": "Bucks",
+        "employees": "77",
+        "date": "9/23/2012",
+        "type": "Layoff"
+      }
+    ]
+  },
+  {
+    "entry": "June 2012",
+    "data": [
+      {
+        "title": "Aramark Transportation Services",
+        "county": "Philadelphia",
+        "employees": "94",
+        "date": "8/3/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "First Student, Inc.",
+        "county": "Montgomery",
+        "employees": "32",
+        "date": "6/30/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Day Timers, Inc.",
+        "county": "Lehigh",
+        "employees": "288",
+        "date": "9/1/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Fashion Bug Retail Companies",
+        "county": "Bucks",
+        "employees": "218",
+        "date": "8/31/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Specialty Hospital of Philadelphia, Inc.",
+        "county": "Delaware",
+        "employees": "74",
+        "date": "8/24/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Sykes Enterprises, Inc.",
+        "county": "Bucks",
+        "employees": "218",
+        "date": "8/26/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Verizon Services Corp.",
+        "county": "Chester",
+        "employees": "98",
+        "date": "8/21/2012",
+        "type": "Layoff"
+      }
+    ]
+  },
+  {
+    "entry": "May 2012",
+    "data": [
+      {
+        "title": "Wheatland Tube Company",
+        "county": "Mercer",
+        "employees": "60",
+        "date": "6/30/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Baker Hughes, Inc.",
+        "county": "Clarion",
+        "employees": "75",
+        "date": "6/29/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Baker Hughes, Inc.",
+        "county": "Lycoming",
+        "employees": "79",
+        "date": "6/29/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Hostess Brands, Inc.",
+        "county": "Columbia",
+        "employees": "9",
+        "date": "7/3/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Hostess Brands, Inc.",
+        "county": "Butler",
+        "employees": "2",
+        "date": "7/3/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Hostess Brands, Inc.",
+        "county": "Northampton",
+        "employees": "29",
+        "date": "7/3/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Hostess Brands, Inc.",
+        "county": "Cambria",
+        "employees": "16",
+        "date": "7/3/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Hostess Brands, Inc.",
+        "county": "Erie",
+        "employees": "7",
+        "date": "7/3/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Hostess Brands, Inc.",
+        "county": "Allegheny",
+        "employees": "2",
+        "date": "7/3/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Hostess Brands, Inc.",
+        "county": "Lancaster",
+        "employees": "12",
+        "date": "7/3/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Hostess Brands, Inc.",
+        "county": "Philadelphia",
+        "employees": "2",
+        "date": "7/3/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Hostess Brands, Inc.",
+        "county": "Philadelphia",
+        "employees": "5",
+        "date": "7/3/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Hostess Brands, Inc.",
+        "county": "Philadelphia",
+        "employees": "458",
+        "date": "7/3/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Hostess Brands, Inc.",
+        "county": "Allegheny",
+        "employees": "3",
+        "date": "7/3/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Hostess Brands, Inc.",
+        "county": "Beaver",
+        "employees": "2",
+        "date": "7/3/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Hostess Brands, Inc.",
+        "county": "Washington",
+        "employees": "2",
+        "date": "7/3/2012",
+        "type": "Closing"
+      }
+    ]
+  },
+  {
+    "entry": "April 2012",
+    "data": [
+      {
+        "title": "Berks County Youth Center",
+        "county": "Berks",
+        "employees": "58",
+        "date": "6/3/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Federal Reserve Bank of Cleveland",
+        "county": "Allegheny",
+        "employees": "6",
+        "date": "5/1/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "JC Penney",
+        "county": "Allegheny",
+        "employees": "321",
+        "date": "6/29/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "West Business Solutions",
+        "county": "Erie",
+        "employees": "378",
+        "date": "5/31/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Genuardi’s",
+        "county": "Montgomery & Bucks",
+        "employees": "248",
+        "date": "6/8/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Grubb & Ellis Company",
+        "county": "Allegheny",
+        "employees": "65",
+        "date": "4/9/2012",
+        "type": "Closing"
+      }
+    ]
+  },
+  {
+    "entry": "March 2012",
+    "data": [
+      {
+        "title": "Aramark",
+        "county": "Philadelphia",
+        "employees": "137",
+        "date": "5/4/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Cenveo Corporation",
+        "county": "Northampton",
+        "employees": "195",
+        "date": "4/27/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "IDEX/Hale Products",
+        "county": "Montgomery",
+        "employees": "N/A",
+        "date": "3/23/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Maximus Federal Services",
+        "county": "Montgomery",
+        "employees": "73",
+        "date": "5/25/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Northrop Grumman",
+        "county": "Philadelphia",
+        "employees": "1",
+        "date": "5/4/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "TSG Finishing, LLC",
+        "county": "Montgomery",
+        "employees": "62",
+        "date": "5/5/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Sears Holdings Corp.",
+        "county": "Montgomery",
+        "employees": "92",
+        "date": "4/22/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Sears Holdings Corp.",
+        "county": "Delaware",
+        "employees": "12",
+        "date": "4/22/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Sears Holdings Corp.",
+        "county": "Montgomery",
+        "employees": "12",
+        "date": "4/22/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Sears Holdings Corporation",
+        "county": "Delaware",
+        "employees": "104",
+        "date": "4/22/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Brookfield Global Relocation Services",
+        "county": "Montgomery",
+        "employees": "71",
+        "date": "8/1/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Grubb & Ellis Company",
+        "county": "Allegheny",
+        "employees": "65",
+        "date": "3/25/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "T Mobile USA, Inc.",
+        "county": "Lehigh",
+        "employees": "605",
+        "date": "6/22/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Jet Plastica Industries, Inc",
+        "county": "Montgomery",
+        "employees": "363",
+        "date": "3/29/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Diversapack LLC",
+        "county": "Blair",
+        "employees": "65",
+        "date": "5/29/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Golden Living Northeast Central Billing Office",
+        "county": "Allegheny",
+        "employees": "33",
+        "date": "6/1/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Steris Corporation",
+        "county": "Erie",
+        "employees": "2",
+        "date": "6/1/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Sykes Enterprises",
+        "county": "Bucks",
+        "employees": "159",
+        "date": "7/23/2012",
+        "type": "Layoff"
+      }
+    ]
+  },
+  {
+    "entry": "February 2012",
+    "data": [
+      {
+        "title": "JC Penney Corporation, Inc.",
+        "county": "Lehigh",
+        "employees": "460",
+        "date": "4/9/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Meadows RaceTrack & Casino",
+        "county": "Allegheny",
+        "employees": "N/A",
+        "date": "4/1/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Met Life",
+        "county": "Allegheny",
+        "employees": "64",
+        "date": "3/30/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "NAVTEQ, Inc.",
+        "county": "Chester",
+        "employees": "235",
+        "date": "1/1/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Silgan Plastics Corporation",
+        "county": "Lehigh",
+        "employees": "N/A",
+        "date": "1/31/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Wells Fargo & Company",
+        "county": "Delaware",
+        "employees": "73",
+        "date": "4/2/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Kyowa America Corporation",
+        "county": "Greene",
+        "employees": "110",
+        "date": "7/31/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Spring Window Fashions, LLC",
+        "county": "Lycoming",
+        "employees": "N/A",
+        "date": "3/19/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "BNY Mellon",
+        "county": "Philadelphia",
+        "employees": "5",
+        "date": "4/13/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "BNY Mellon",
+        "county": "Philadelphia",
+        "date": "4/27/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Intermetro Industries Corporation",
+        "county": "Chester",
+        "employees": "62",
+        "date": "9/01/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Federal Reserve Bank of Cleveland",
+        "county": "Allegheny",
+        "employees": "2",
+        "date": "4/16/2012",
+        "type": "Layoff"
+      }
+    ]
+  },
+  {
+    "entry": "January 2012",
+    "data": [
+      {
+        "title": "Steris Corporation",
+        "county": "Erie",
+        "employees": "2",
+        "date": "3/30/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "BNY Mellon",
+        "county": "Philadelphia",
+        "employees": "1",
+        "date": "3/5/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Century Link",
+        "county": "Cumberland",
+        "employees": "81",
+        "date": "3/30/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "The Hershey Company",
+        "county": "Dauphin",
+        "employees": "373",
+        "date": "3/01/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Pillar Hotels & Resorts",
+        "county": "Bucks, Fayette, York, Clarion, Indiana, Westmoreland & Beaver",
+        "employees": "420",
+        "date": "1/31/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Sunoco",
+        "county": "Delaware",
+        "employees": "26",
+        "date": "3/9/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "NEAPCO Components",
+        "county": "Montgomery",
+        "employees": "29",
+        "date": "2/10/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "UTI Integrated Logistics",
+        "county": "Lancaster",
+        "employees": "76",
+        "date": "3/31/2012",
+        "type": "Layoff"
+      }
+    ]
+  },
+  {
+    "entry": "December 2011",
+    "data": [
+      {
+        "title": "Bank of New York Mellon",
+        "county": "Philadelphia",
+        "employees": "1",
+        "date": "2/17/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Federal Reserve Bank of Cleveland",
+        "county": "Allegheny",
+        "employees": "118",
+        "date": "12/31/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Neapco Components, LLC",
+        "county": "Montgomery",
+        "employees": "34",
+        "date": "1/31/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Brendan Airways",
+        "county": "Delaware",
+        "employees": "53",
+        "date": "1/08/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "ASPEQ Industrial Holdings (d/b/a Heatrex)",
+        "county": "Crawford",
+        "employees": "37",
+        "date": "11/29/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Sunoco, Inc.",
+        "county": "Delaware",
+        "employees": "348",
+        "date": "2/29/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Marian Community Hospital",
+        "county": "Lackawanna, Susquehanna & Wayne",
+        "employees": "233",
+        "date": "1/30/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Quad/Graphics, Inc.",
+        "county": "Chester",
+        "employees": "87",
+        "date": "1/28/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Areva NP, Inc.",
+        "county": "Butler",
+        "employees": "1",
+        "date": "2/13/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "NCO Financial Systems",
+        "county": "Washington",
+        "employees": "123",
+        "date": "1/3/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Cubist Pharmaceuticals, Inc.",
+        "county": "Chester",
+        "employees": "90",
+        "date": "12/12/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Sunoco Marketing HQ",
+        "county": "Delaware",
+        "employees": "18",
+        "date": "2/13/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Sunoco, Inc.",
+        "county": "Delaware",
+        "employees": "2",
+        "date": "2/13/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Sunoco, Inc.",
+        "county": "Delaware",
+        "employees": "88",
+        "date": "2/13/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Asplundh Construction Corp.",
+        "county": "Lehigh; Monroe; Schuykill; Lackawanna; Wayne",
+        "employees": "86",
+        "date": "12/12/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "BNY Mellon",
+        "county": "Philadelphia",
+        "employees": "9",
+        "date": "2/6/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Susquehanna Bancshares, Inc.",
+        "county": "Multiple PA Counties",
+        "employees": "309",
+        "date": "12/8/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "BNY Mellon",
+        "county": "Philadelphia",
+        "employees": "35",
+        "date": "2/20/2012",
+        "type": "Layoff"
+      }
+    ]
+  },
+  {
+    "entry": "November 2011",
+    "data": [
+      {
+        "title": "Conoco Phillips",
+        "county": "Delaware",
+        "employees": "10",
+        "date": "1/2/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Conoco Phillips",
+        "county": "Delaware",
+        "employees": "409",
+        "date": "1/16/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Stryker Corporation",
+        "county": "Chester",
+        "employees": "58",
+        "date": "12/31/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "ECI Telecom, Inc.",
+        "county": "Allegheny",
+        "employees": "107",
+        "date": "1/9/2012",
+        "type": "Layoff"
+      },
+      {
+        "title": "Federal Reserve Bank of Cleveland",
+        "county": "Allegheny",
+        "employees": "89",
+        "date": "11/30/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Kane Freight Lines, Inc.",
+        "county": "Wyoming",
+        "employees": "35",
+        "date": "11/13/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Pillar Hotels & Resorts",
+        "county": "Bucks, Fayette, York, Clarion, Indiana, Westmoreland & Beaver",
+        "employees": "420",
+        "date": "12/31/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Syms Corp/Filene’s Basement",
+        "county": "Chester",
+        "employees": "23",
+        "date": "1/9/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Brendan Airways dba/USA 3000",
+        "county": "Delaware",
+        "employees": "58",
+        "date": "1/8/2012",
+        "type": "Closing"
+      },
+      {
+        "title": "Iron Tiger Logistics",
+        "county": "Lehigh",
+        "employees": "56",
+        "date": "12/31/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Neapco Components",
+        "county": "Montgomery",
+        "employees": "8",
+        "date": "12/31/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Healthways, Inc.",
+        "county": "Allegheny",
+        "employees": "57",
+        "date": "1/16/2012",
+        "type": "Closing"
+      }
+    ]
+  },
+  {
+    "entry": "October 2011",
+    "data": [
+      {
+        "title": "Bank of New York Mellon",
+        "county": "Philadelphia",
+        "employees": "2",
+        "date": "12/2/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Excel Homes Group",
+        "county": "Lycoming",
+        "employees": "74",
+        "date": "7/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Federal Reserve Bank of Cleveland",
+        "county": "Allegheny",
+        "employees": "121",
+        "date": "11/30/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Health Dialog Services Corporation",
+        "county": "Allegheny",
+        "employees": "76",
+        "date": "12/31/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Livingston Services Corporation",
+        "county": "Lehigh/Northampton",
+        "employees": "N/A",
+        "date": "11/30/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Ramtech Support Services, Inc.",
+        "county": "Franklin",
+        "employees": "360",
+        "date": "11/30/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Steris Corporation",
+        "county": "Erie",
+        "employees": "1",
+        "date": "12/30/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Tiburon Associates, Inc.",
+        "county": "Franklin",
+        "employees": "344",
+        "date": "11/30/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Alan Ritchey, Inc.",
+        "county": "Bucks",
+        "employees": "14",
+        "date": "10/17/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "BNY Mellon",
+        "county": "Philadelphia",
+        "employees": "2",
+        "date": "12/16/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Commodore Corporation",
+        "county": "Schuykill",
+        "employees": "100",
+        "date": "9/23/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Neapco Components",
+        "county": "Montgomery",
+        "employees": "35",
+        "date": "12/6/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Steris Corporation",
+        "county": "Erie",
+        "employees": "1",
+        "date": "12/2/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Clinical Pathology Institute",
+        "county": "Erie",
+        "employees": "87",
+        "date": "12/17/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Kalstar Enterprises, Inc.",
+        "county": "Wyoming",
+        "employees": "56",
+        "date": "12/22/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "SAFC Biosciences",
+        "county": "Lancaster",
+        "employees": "77",
+        "date": "12/2/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Alan Ritchey, Inc.",
+        "county": "Bucks",
+        "employees": "4",
+        "date": "11/2/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "International Bedding Corp.",
+        "county": "Schuykill",
+        "employees": "142",
+        "date": "12/22/2011",
+        "type": "Closing"
+      }
+    ]
+  },
+  {
+    "entry": "September 2011",
+    "data": [
+      {
+        "title": "Stanley Black & Decker",
+        "county": "Berks",
+        "employees": "165",
+        "date": "10/28/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Martins Country Markets",
+        "county": "Berks",
+        "employees": "84",
+        "date": "11/8/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Narrow Fabric Industries Corp.",
+        "county": "Berks",
+        "employees": "100",
+        "date": "9/10/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Ocean Logistics",
+        "county": "Lackawanna",
+        "employees": "163",
+        "date": "9/12/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Alan Ritchey, Inc.",
+        "county": "Bucks",
+        "employees": "189",
+        "date": "9/15/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "BNY Mellon",
+        "county": "Philadelphia",
+        "employees": "15",
+        "date": "11/12/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Steris Corporation",
+        "county": "Erie",
+        "employees": "1",
+        "date": "11/18/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Wells Fargo & Company",
+        "county": "Delaware",
+        "employees": "119",
+        "date": "11/20/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Kalstar Enterprises, Inc.",
+        "county": "Wyoming",
+        "employees": "225",
+        "date": "10/1/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Alan Ritchey, Inc.",
+        "county": "Bucks",
+        "employees": "24",
+        "date": "10/3/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Buccaneer Data Services",
+        "county": "York",
+        "employees": "130",
+        "date": "11/30/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Kane Freight Lines",
+        "county": "Wyoming",
+        "employees": "33",
+        "date": "12/1/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Lehigh Fabrication",
+        "county": "Lehigh",
+        "employees": "30",
+        "date": "11/18/2011",
+        "type": "Closing"
+      }
+    ]
+  },
+  {
+    "entry": "August 2011",
+    "data": [
+      {
+        "title": "Bank of New York Mellon",
+        "county": "Philadelphia",
+        "employees": "5",
+        "date": "9/30/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Lockheed Martin Corporation",
+        "county": "Philadelphia",
+        "employees": "4",
+        "date": "9/30/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Replico Corporation",
+        "county": "Lehigh",
+        "employees": "16",
+        "date": "9/30/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Stanley Black & Decker",
+        "county": "Berks",
+        "employees": "165",
+        "date": "9/30/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Steris Corporation",
+        "county": "Erie",
+        "employees": "1",
+        "date": "9/30/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Teleperformance USA",
+        "county": "Fayette",
+        "employees": "208",
+        "date": "8/31/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Kalstar Enterprises, Inc.",
+        "county": "Wyoming",
+        "employees": "225",
+        "date": "10/8/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Lyondell Chemical Company",
+        "county": "Delaware",
+        "employees": "132",
+        "date": "9/30/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Steris Corporation",
+        "county": "Erie",
+        "employees": "3",
+        "date": "8/12/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Reading Powder Coatings, Inc.",
+        "county": "Berks",
+        "employees": "12",
+        "date": "12/19/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Tiger Drylac USA, Inc.",
+        "county": "Berks",
+        "employees": "25",
+        "date": "12/19/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Steris Corporation",
+        "county": "Erie",
+        "employees": "1",
+        "date": "8/29/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Abraxas Center for Adolescent Females",
+        "county": "Allegheny",
+        "employees": "111",
+        "date": "10/22/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Ceridian",
+        "county": "Montgomery",
+        "employees": "84",
+        "date": "10/15/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "RR Donnelly",
+        "county": "Columbia",
+        "employees": "284",
+        "date": "10/24/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Yorktowne Paperboard Corp.",
+        "county": "York",
+        "employees": "78",
+        "date": "10/17/2011",
+        "type": "Closing"
+      }
+    ]
+  },
+  {
+    "entry": "July 2011",
+    "data": [
+      {
+        "title": "Alan Ritchey, Inc.",
+        "county": "Philadelphia",
+        "employees": "191",
+        "date": "9/1/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Amoroso Baking Company",
+        "county": "Philadelphia",
+        "employees": "75",
+        "date": "8/1/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Aquatic Company",
+        "county": "Lancaster",
+        "employees": "74",
+        "date": "5/13/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Consol Energy",
+        "county": "Washington",
+        "employees": "22",
+        "date": "7/30/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Elan",
+        "county": "Montgomery",
+        "employees": "104",
+        "date": "8/22/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Educational Data Systems, Inc.",
+        "county": "Multiple PA Counties",
+        "employees": "74",
+        "date": "6/30/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Federal Reserve Bank of Cleveland",
+        "county": "Allegheny",
+        "employees": "163",
+        "date": "7/1/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "HMS Host Corporation",
+        "county": "Somerset",
+        "employees": "78",
+        "date": "9/7/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Ocean Logistics, LLC",
+        "county": "Lackawanna",
+        "employees": "163",
+        "date": "9/12/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "RockTenn",
+        "county": "Lycoming",
+        "employees": "97",
+        "date": "9/2/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Steris Corporation",
+        "county": "Erie",
+        "employees": "4",
+        "date": "8/12/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Prestige Maintenance, USA",
+        "county": "Multiple PA Counties",
+        "employees": "66",
+        "date": "8/1/2011",
+        "type": "Layoff"
+      }
+    ]
+  },
+  {
+    "entry": "June 2011",
+    "data": [
+      {
+        "title": "Federal Reserve Bank of Cleveland",
+        "county": "Allegheny",
+        "employees": "215",
+        "date": "5/31/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "C&S Wholesale Grocers, Inc.",
+        "county": "Dauphin",
+        "employees": "240",
+        "date": "8/6/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Children’s Service Center of Wyoming Valley",
+        "county": "Luzerne",
+        "employees": "54",
+        "date": "8/8/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Share Group",
+        "county": "Allegheny",
+        "employees": "0",
+        "date": "8/6/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Steris Corporation",
+        "county": "Erie",
+        "employees": "12",
+        "date": "7/15/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Teleperformance USA",
+        "county": "Fayette",
+        "employees": "306",
+        "date": "8/7/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Hometown America",
+        "county": "Northampton",
+        "employees": "6",
+        "date": "9/30/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Hometown America",
+        "county": "Lehigh",
+        "employees": "7",
+        "date": "9/30/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Steris Corporation",
+        "county": "Erie",
+        "employees": "2",
+        "date": "8/12/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Bank of New York Mellon",
+        "county": "Philadelphia",
+        "employees": "5",
+        "date": "8/12/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Tops Markets, LLC",
+        "county": "Bradford",
+        "employees": "103",
+        "date": "8/7/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Navitor East",
+        "county": "Franklin",
+        "employees": "53",
+        "date": "8/15/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "SAFC Biosciences",
+        "county": "Lancaster",
+        "employees": "77",
+        "date": "8/22/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Solar Power Industries",
+        "county": "Westmoreland",
+        "employees": "176",
+        "date": "5/3/2011",
+        "type": "Layoff"
+      }
+    ]
+  },
+  {
+    "entry": "May 2011",
+    "data": [
+      {
+        "title": "Cognis Corporation",
+        "county": "Montgomery",
+        "employees": "30",
+        "date": "9/30/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "JC Penney",
+        "county": "Philadelphia",
+        "employees": "109",
+        "date": "7/11/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Liberty Resources, Inc.",
+        "county": "Philadelphia",
+        "employees": "112",
+        "date": "7/4/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Sara Lee Corporation",
+        "county": "Chester",
+        "employees": "62",
+        "date": "6/30/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Sodexo, Inc.",
+        "county": "Lycoming",
+        "employees": "64",
+        "date": "5/30/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Canton Manufacturing",
+        "county": "Bradford",
+        "employees": "119",
+        "date": "7/14/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Hear USA, Inc.",
+        "county": "Lackawanna",
+        "employees": "5",
+        "date": "7/16/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Neapco Components, LLC",
+        "county": "Montgomery",
+        "employees": "12",
+        "date": "7/18/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Steris Corporation",
+        "county": "Erie",
+        "employees": "7",
+        "date": "7/24/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Edens Corporation",
+        "county": "Philadelphia",
+        "employees": "192",
+        "date": "7/29/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Heinz North America",
+        "county": "Montgomery",
+        "employees": "62",
+        "date": "7/26/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Steris Corporation",
+        "county": "Erie",
+        "employees": "2",
+        "date": "7/15/2011",
+        "type": "Closing"
+      }
+    ]
+  },
+  {
+    "entry": "April 2011",
+    "data": [
+      {
+        "title": "Alloy Surfaces Company Inc.",
+        "county": "Delaware",
+        "employees": "160",
+        "date": "5/27/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Hewlett-Packard",
+        "county": "Cumberland",
+        "employees": "92",
+        "date": "5/31/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "BNY Mellon",
+        "county": "Philadelphia",
+        "employees": "51",
+        "date": "5/30/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Steris Corporation",
+        "county": "Erie",
+        "employees": "2",
+        "date": "6/17/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Federal Reserve Bank of Cleveland",
+        "county": "Allegheny",
+        "employees": "226",
+        "date": "5/31/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Wells Fargo & Company",
+        "county": "Northampton",
+        "employees": "193",
+        "date": "5/29/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "JEVS Human Services",
+        "county": "Philadelphia",
+        "employees": "9",
+        "date": "5/31/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Tops Markets, LLC",
+        "county": "Bradford",
+        "employees": "108",
+        "date": "6/1/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Wells Fargo & Company",
+        "county": "Philadelphia",
+        "employees": "56",
+        "date": "6/4/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Consol Energy",
+        "county": "Washington",
+        "employees": "46",
+        "date": "6/13/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Steris Corporation",
+        "county": "Erie",
+        "employees": "29",
+        "date": "6/17/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Eckert Seamans Cherin & Mellot, LLC",
+        "county": "Allegheny",
+        "employees": "170",
+        "date": "6/8/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Tiburon Associates",
+        "county": "Franklin",
+        "employees": "336",
+        "date": "5/27/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Ram Tech",
+        "county": "Franklin",
+        "employees": "350",
+        "date": "N/A",
+        "type": "Layoff"
+      },
+      {
+        "title": "Amoroso’s Baking Company",
+        "county": "Philadelphia",
+        "employees": "90",
+        "date": "6/19/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Bank of New York Mellon",
+        "county": "Philadelphia",
+        "employees": "12",
+        "date": "6/17/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Borders Distribution Center",
+        "county": "Cumberland",
+        "employees": "240",
+        "date": "6/17/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Aquatic Company",
+        "county": "Lancaster",
+        "employees": "73",
+        "date": "5/13/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Jostens, Inc.",
+        "county": "Centre",
+        "employees": "230",
+        "date": "6/27/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "JEVS Human Services",
+        "county": "Philadelphia",
+        "employees": "141",
+        "date": "6/1/2011",
+        "type": "Layoff"
+      }
+    ]
+  },
+  {
+    "entry": "March 2011",
+    "data": [
+      {
+        "title": "Aquatic Co.",
+        "county": "Lancaster",
+        "employees": "78",
+        "date": "5/13/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Steris Corporation",
+        "county": "Erie",
+        "employees": "125",
+        "date": "5/13/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Armstrong World Industries",
+        "county": "Beaver",
+        "employees": "15",
+        "date": "5/31/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Elkay Wood Products Company",
+        "county": "York",
+        "employees": "113",
+        "date": "5/12/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Aramark - Transportation Services",
+        "county": "Philadelphia",
+        "employees": "65",
+        "date": "5/17/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Penske Logistics, LLC",
+        "county": "Bucks",
+        "employees": "77",
+        "date": "5/28/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Sodexo, Inc.",
+        "county": "Allegheny",
+        "employees": "113",
+        "date": "5/16/2011",
+        "type": "Closing"
+      }
+    ]
+  },
+  {
+    "entry": "February 2011",
+    "data": [
+      {
+        "title": "Armstrong World Industries, Inc.",
+        "county": "Beaver",
+        "employees": "94",
+        "date": "4/1/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Domtar Paper Company",
+        "county": "Bucks",
+        "employees": "59",
+        "date": "4/1/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Seton Company",
+        "county": "Bedford",
+        "employees": "120",
+        "date": "4/1/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Sodexo, Inc.",
+        "county": "Wyoming",
+        "employees": "71",
+        "date": "2/1/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Steris Corp.",
+        "county": "Erie",
+        "employees": "1",
+        "date": "3/30/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Tops Market, LLC",
+        "county": "Bradford",
+        "employees": "106",
+        "date": "4/1/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Alloy Surfaces Company, Inc.",
+        "county": "Delaware",
+        "employees": "160",
+        "date": "4/8/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Consol Energy",
+        "county": "Washington",
+        "employees": "52",
+        "date": "3/2/11",
+        "type": "Layoff"
+      },
+      {
+        "title": "Dex One Corporation",
+        "county": "Lackawanna",
+        "employees": "57",
+        "date": "3/25/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "JEVS Human Services",
+        "county": "Philadelphia",
+        "employees": "93",
+        "date": "4/18/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Steris Corporation",
+        "county": "Erie",
+        "employees": "3",
+        "date": "4/11/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Steris Corporation",
+        "county": "Erie",
+        "employees": "16",
+        "date": "4/15/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Pathmark Store #380",
+        "county": "Northampton",
+        "employees": "68",
+        "date": "4/15/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Steris Corporation",
+        "county": "Erie",
+        "employees": "6",
+        "date": "4/26/2011",
+        "type": "Closing"
+      }
+    ]
+  },
+  {
+    "entry": "January 2011",
+    "data": [
+      {
+        "title": "Bickel’s Snack Foods, Inc.",
+        "county": "Erie",
+        "employees": "77",
+        "date": "3/7/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Pennsylvania Clinical Schools",
+        "county": "Chester",
+        "employees": "110",
+        "date": "3/7/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Park Place PA, LLC",
+        "county": "Lancaster",
+        "employees": "50",
+        "date": "3/11/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Zip Realty, Inc.",
+        "county": "Delaware",
+        "employees": "1",
+        "date": "3/14/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "AGY",
+        "county": "Huntingdon",
+        "employees": "1",
+        "date": "2/19/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Exel, Inc.",
+        "county": "Cumberland",
+        "employees": "86",
+        "date": "4/1/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Reynolds Food Packaging",
+        "county": "Mercer",
+        "employees": "145",
+        "date": "3/15/2011",
+        "type": "Closing"
+      },
+      {
+        "title": "Port Authority of Allegheny County",
+        "county": "Allegheny",
+        "employees": "212",
+        "date": "3/27/2011",
+        "type": "Layoff"
+      },
+      {
+        "title": "Graystone Tower Bank",
+        "county": "Lancaster",
+        "employees": "112",
+        "date": "3/31/2011",
+        "type": "Closing"
+      }
+    ]
+  }
+]

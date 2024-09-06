@@ -1,0 +1,10 @@
+/*
+Booleans
+Strings
+Numbers
+Arrays
+Objects
+Prototypes
+Sets
+Maps
+*/

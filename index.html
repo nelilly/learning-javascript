@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Sandbox</title>
+  <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+  <h1>JavaScript Sandbox</h1>
+  <ol>
+    <li>Runs code</li>
+    <li>localStorage of input, output, goals</li>
+  </ol>
+  <form>
+    <label for="test">Test</label>
+    <!-- <textarea id="test" name="test" required pattern="^[a-zA-Z0-9_]*$"></textarea> -->
+    <!-- <input type="text" id="test" name="test" required pattern="^[A-Za-z0-9]+[A-Za-z0-9\s\-]+[A-Za-z0-9]{1,500}$" title="Only Alphanumeric characters or a dash, no more than 500 characters" /> -->
+    <!-- /^[^!@#$%^&*()+={}\|\\;\"?~`]{1,500}$/gm -->
+    <input type="text" id="test" name="test" required pattern="[^!@#$%^&*()+={}\|\\;?~`]" title="Only Alphanumeric characters or a dash, no more than 500 characters" />
+    <button type="submit">Submit</button>
+  </form>
+  <div class="console">
+    <form>
+      <label for="input">Input</label>
+      <textarea id="input" name="input"></textarea>
+      <button type="submit" id="run">Run</button>
+    </form>
+    <!-- <ol>
+      <li>Go through each field.</li>
+      <li>Check if field is conditional</li>
+      <li>Check if conditional field has an active parent with the correct value</li>
+      <li>Remove if false</li>
+    </ol> -->
+    <!-- <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+      <input type="range" id="b" name="b" value="50" /> +
+      <input type="number" id="a" name="a" value="10" /> =
+      <output name="result" for="a b">60</output>
+    </form> -->
+
+    <fieldset>
+      <legend>Output</legend>
+      <output id="output" name="output"></output>
+    </fieldset>
+  </div>
+<script src="/scripts.js"></script>
+</body>
+</html>

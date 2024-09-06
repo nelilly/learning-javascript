@@ -29,3 +29,21 @@ const murderRobotDog = (name) => {
 };
 
 murderRobotDog('fido').bark();
+
+// Composition chain
+const compose = (x) => ({
+  map: (f) => compose(f(x)),
+  end: () => x,
+});
+
+const lower = (str) => str.toLowerCase();
+const sanitize = (str) => str.replace(/[^a-z0-9 -]/g, '');
+const clean = (str) => str.replace(/\\\\s+/gm, '-');
+
+const slugify = (str) => compose(str)
+  .map(lower)
+  .map(sanitize)
+  .map(clean)
+  .end();
+
+slugify('I love $$$ noodles');

@@ -30,6 +30,10 @@ const users = [
   },
 ];
 
+/* Time */
+const now = new Date();
+const today = `${now.getFullYear()}-${(`0${now.getMonth() + 1}`).slice(-2)}-${(`0${now.getDate()}`).slice(-2)}`;
+
 // Return the sine of a number
 const sin = (seed) => {
   const x = Math.sin(seed) * 10000;
@@ -46,11 +50,11 @@ randomNumber(Date.now(), 6); // will always return the same number 1-6 based on 
 randomNumber(Math.random(), 6); // will return a random number between 1-6
 
 // Return the same number based on the same day
-const today = new Date();
-randomNumber(today.getDate(), 6);
+randomNumber(now.getDate(), 6);
 
 // Return a random user in the users array
 users[randomNumber(Date.now(), users.length) - 1];
 
 // Return today's random user
 users[randomNumber(today.getDate(), users.length) - 1];
+

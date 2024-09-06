@@ -13,12 +13,16 @@ A 12 week introduction to JavaScript curriculum for weekly JavaScript Discussion
 -  [Eloquent JavaScript](https://www.amazon.com/dp/B07C96Q217/) (2018)
 -  [Beginning JavaScript, 5th edition](http://www.amazon.com/gp/product/1118903331/) (2015)
 
-### Tips
+### Learning Tips
 -   Skim the chapter headers, read quickly, and then read again more throughoughly.
 -   Don't skim over the code examples. Read all the code and try to understand how it works.
 -   Have an open JavaScript console nearby to test the code that you're reading.
 -   Watch videos at faster than normal speed, up to 2x speed.
 -   Take Coursera&rsquo;s [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn/home/welcome) course.
+
+### Programming Tips
+-   If you have to do something more than three times, find a way to automate it.
+-   If you find yourself copying and pasting code within your application, consider creating shared code (a shared Array, Object, or Function).
 
 ## Table of Contents
 1.  [Preparation](#preparation)
