@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="N.E. Lilly">
+  <meta name="description" content="JavaScript Sandbox is a lightweight interface to quickly run JavaScript code snippets in the browser. It's an expedient way to test code without dealing with the overhead of a full development environment.">
+  <title>JS Sandbox</title>
+  <script src="https://unpkg.com/monaco-editor@0.52.2/min/vs/loader.js"></script>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      font-family: Arial, sans-serif;
+      line-height: 1.5;
+    }
+
+    body {
+      background-color: #111;
+      border: 1px solid #000;
+      border-width: 2px 1px 1px 2px;
+      color: #ccc;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      color: #fff;
+      font-size: 1rem;
+      font-weight: normal;
+      margin: 0.5rem;
+    }
+
+    main {
+      --border-size: 2px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      height: calc(100vh - 2 * var(--border-size));
+    }
+
+    textarea,
+    .input {
+      background-color: #1e1e1e;
+      border-width: 2px 1px 1px 2px;
+      border: 1px solid #000;
+      color: #ccc;
+      font-family: monospace;
+      height: calc(100vh - 2 * var(--border-size));
+      outline: none;
+      padding: 1rem 0 6rem;
+      width: 100%;
+    }
+
+    textarea {
+      padding: 1rem 1rem 7rem;
+      resize: none;
+    }
+
+    #controls {
+      background-color: #111;
+      border-top: 3px solid #000;
+      bottom: 0;
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: auto 1fr;
+      justify-content: space-between;
+      left: 0;
+      margin: 0;
+      padding: 0.5rem 1rem 2rem;
+      position: absolute;
+      right: 0;
+      text-align: right;
+      z-index: 10;
+
+      & select {
+        background-color: #333;
+        border: 1px solid #444;
+        border-radius: 0;
+        color: #999;
+        cursor: pointer;
+        font-size: 1rem;
+        outline: none;
+        padding: 0.5rem 1rem;
+      }
+    }
+
+    button {
+      background-color: #333;
+      border: 1px solid #444;
+      color: #999;
+      cursor: pointer;
+      padding: 1rem 3rem;
+
+      &:hover,
+      &:focus {
+        background-color: #444;
+        border: 1px solid #555;
+        outline: none;
+      }
+
+      &:active {
+        background-color: #555;
+        border: 1px solid #777;
+        color: #fff;
+      }
+    }
+
+    #settings {
+      display: flex;
+      gap: 0.5rem;
+      position: absolute;
+      right: 1rem;
+      top: 1rem;
+
+      & button {
+        background-color: transparent;
+        border-radius: 100%;
+        border: 1px solid #444;
+        color: #999;
+        font-size: 2rem;
+        padding: 0.5rem 1rem;
+
+        &:hover,
+        &:hover:focus {
+          background-color: #333;
+          border: 1px solid #333;
+          color: #fff;
+          outline: 2px solid #555;
+        }
+
+        &:focus {
+          background-color: #444;
+          outline: 2px solid #777;
+        }
+
+        &:active {
+          background-color: #555;
+          border: 1px solid #777;
+          color: #fff;
+        }
+      }
+    }
+
+    /* About Dialog */
+    dialog {
+      align-self: center;
+      background-color: #222;
+      border: 1px solid #444;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      color: #999;
+      justify-content: center;
+      max-width: 600px;
+      padding: 2rem;
+      z-index: 1000;
+
+      & h2 {
+        font-size: 1.5rem;
+        font-weight: normal;
+        margin: 0 0 1rem;
+      }
+
+      & li {
+        margin: 0.5rem 0;
+      }
+
+      #closeDialog {
+        background-color: transparent;
+        border: 1px solid #444;
+        border-radius: 100%;
+        color: #999;
+        font-size: 2rem;
+        padding: 0.5rem 1rem;
+        /* margin-top: 1rem; */
+        position: absolute;
+        top: 0.5rem;
+        right: 0.5rem;
+
+        &:hover,
+        &:hover:focus {
+          background-color: #333;
+          border: 1px solid #333;
+          color: #fff;
+          outline: 2px solid #555;
+        }
+
+        &:focus {
+          outline: 2px solid #777;
+          background-color: #444;
+        }
+
+        &:active {
+          background-color: #555;
+          border: 1px solid #777;
+          color: #fff;
+        }
+      }
+    }
+
+    dialog::backdrop {
+      background-color: rgb(0 0 0 / 0%);
+      transition:
+        display .667s allow-discrete,
+        overlay .667s allow-discrete,
+        background-color .667s;
+    }
+
+    dialog[open]::backdrop {
+      background-color: #0006;
+      -webkit-backdrop-filter: blur(.1rem);
+      backdrop-filter: blur(.1rem);
+    }
+
+    @starting-style {
+      dialog::backdrop {
+        background-color: #000;
+        -webkit-backdrop-filter: blur(.1rem);
+        backdrop-filter: blur(0);
+      }
+    }
+
+    select,
+    ::picker(select) {
+      appearance: base-select;
+    }
+    .option-icon {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      margin-right: 0.5rem;
+      vertical-align: middle;
+    }
+    .option-label {
+      vertical-align: middle;
+    }
+    option {
+      align-items: center;
+      background-color: #444;
+      color: #ccc;
+      display: flex;
+      gap: 0.125rem;
+      padding: .5rem 1rem;
+      outline: none;
+
+      &:hover {
+        background-color: #333;
+        color: #ccc;
+      }
+
+      &:focus {
+        background-color: #555;
+        color: #fff;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div id="input" class="input"></div>
+    <textarea id="output" readonly></textarea>
+    <div id="controls">
+      <select id="languageSelector" aria-label="Select language">
+        <button>
+          <selectedcontent class="languageSelectorContent"></selectedcontent>
+        </button>
+        <option value="javascript" selected>
+          <span class="option-icon" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 16 16">
+              <rect width="16" height="16" rx="2" ry="2" fill="#f7df1e"/>
+              <text x="8" y="12" font-size="10" text-anchor="middle" fill="#000">JS</text>
+            </svg>
+          </span>
+          <span class="option-label">JavaScript</span>
+        </option>
+        <option value="typescript">
+          <span class="option-icon" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 16 16">
+                <rect width="16" height="16" rx="2" ry="2" fill="#3178c6"/>
+              <text x="8" y="12" font-size="10" text-anchor="middle" fill="#fff">TS</text>
+            </svg>
+          </span>
+          <span class="option-label">TypeScript</span>
+        </option>
+      </select>
+      <button id="submit">Run &#10169;</button>
+    </div>
+    <div id="settings">
+      <button id="clear" title="Reset localStorage">&#8634;</button>
+      <button id="aboutButton" title="About JS Sandbox">?</button>
+    </div>
+    <dialog id="about" aria-labelledby="about_title" aria-describedby="about_description">
+      <h2 id="about_title">About JS Sandbox</h2>
+      <div id="about_description">
+        <p>
+          <strong>JS Sandbox</strong> is a lightweight interface to quickly run JavaScript code snippets in the browser. It's intended to be an expedient way to test out code without dealing with the overhead of a full development environment.
+        </p>
+        <p>
+          Other options — like Browser DevTools, online sandboxes (e.g., CodeSandbox, JSFiddle, CodePen, etc.), and even MDN JavaScript Demo windows — were considered, but none provide a quick, lightweight option with a persistent input.
+        </p>
+        <p>
+          The ability to test either JavaScript or TypeScript code seemed to be a natural extension, so that functionality was added as well.
+        </p>
+      </div>
+      <button id="closeDialog" type="button">&times;</button>
+    </dialog>
+  </main>
+  <script>
+    /* Configure resource path of monaco editor package */
+    require.config({
+      paths: { vs: 'https://unpkg.com/monaco-editor@0.52.2/min/vs' }
+    });
+
+    /* Default Scripts: javascript, typescript */
+    let javascript = localStorage.getItem(`console_input_javascript`) || `/* How the Array reduce() method works */
+const array1 = [1, 2, 3, 4];
+const initialValue = 0;
+const reducerCallback = (accumulator, currentValue) => accumulator + currentValue;
+
+const sumWithInitial = array1.reduce(
+  reducerCallback,
+  initialValue,
+);
+
+console.log(sumWithInitial); /* Expected output: 10 */`;
+
+    let typescript = localStorage.getItem(`console_input_typescript`) || `/*
+  TypeScript Playground is the recommended platform for testing TypeScript features: https://www.typescriptlang.org/play/
+*/
+
+type planetType = {
+  name: string;
+  orbit: number;
+  distance: number;
+};
+
+const planets: planetType[] = [
+  {
+    name: 'Mercury',
+    orbit: 1,
+    distance: 0.4,
+  },
+  {
+    name: 'Venus',
+    orbit: 2,
+    distance: 0.7,
+  },
+  {
+    name: 'Earth',
+    orbit: 3,
+    distance: 1,
+  },
+  {
+    name: 'Mars',
+    orbit: 4,
+    distance: 1.5,
+  },
+];
+
+console.log(planets.find((planet) => planet.name === 'Venus')); /* Expected output: {"name":"Venus","orbit":2,"distance":0.7} */`;
+
+    const scriptMap = {javascript, typescript};
+
+    /* Options passed into monaco.editor.create(root, obj) */
+    const DEFAULT_EDITOR_OPTIONS = {
+      accessibilityHelpUrl: 'Nothing yet...',
+      ariaLabel: 'JavaScript Sandbox',
+      autoIndent: 'advanced',
+      automaticLayout: true,
+      bracketPairColorization: { enabled: true },
+      contextmenu: true,
+      find: { addExtraSpaceOnTop: true, seedSearchStringFromSelection: true},
+      folding: true,
+      foldingStrategy: 'auto',
+      fontSize: 16,
+      hover: { enabled: true },
+      language: 'javascript',
+      lineNumbers: 'on',
+      parameterHints: { enabled: true },
+      quickSuggestions: true,
+      readOnly: false,
+      roundedSelection: false,
+      scrollBeyondLastLine: false,
+      suggestOnTriggerCharacters: true,
+      theme: 'vs-dark',
+      value: `${javascript}`,
+      wordWrap: 'on',
+      wordWrapColumn: 80,
+    };
+  
+    /* Resize editor on window resize */
+    let editor;
+    const onCreated = (_editor) => {
+      editor = _editor; /* global ref */
+    }
+
+    /* Create editor */
+    require(['vs/editor/editor.main'], () => {
+      monaco.editor.onDidCreateEditor(onCreated);
+      monaco.editor.create(
+        document.getElementById('input'),
+        DEFAULT_EDITOR_OPTIONS
+      );
+    });
+
+    /* Supported Languages. */
+    const supportedLanguages = ['javascript', 'typescript'];
+    const supportedThemes = ['vs-dark'];
+
+    /* Add event listeners */
+    const runButton = document.getElementById('submit');
+    runButton.addEventListener('click', runCode);
+
+    const clearButton = document.getElementById('clear'); /* clear localStorage and reset the editor (mainly used for debugging) */
+    clearButton.addEventListener('click', () => {
+      const models = monaco.editor.getModels();
+      models.forEach((model) => {
+        model.setValue('');
+      });
+      document.getElementById('output').value = '';
+      localStorage.removeItem(`console_input_javascript`);
+      localStorage.removeItem(`console_input_typescript`);
+      console.info('LocalStorage cleared.');
+      location.reload(); /* refresh the window */
+    });
+
+    /* Language Selector */
+    const languageSelector = document.getElementById('languageSelector');
+    languageSelector.addEventListener('change', (event) => {
+      const lang = languageSelector.options[languageSelector.selectedIndex].value;
+      const models = monaco.editor.getModels();
+      models.forEach((model) => {
+        if (lang) {
+          monaco.editor.setModelLanguage(model, lang);
+          model.setValue(localStorage.getItem(`console_input_${lang}`) || scriptMap[lang]);
+        } else {
+          console.warn(`Language ${lang} is not supported.`);
+        }
+      });
+    });
+
+    function runCode() {
+      const models = monaco.editor.getModels();
+      models.forEach(model => {
+        let code = model.getValue();
+
+        /* capture console.log output */
+        let consoleOutput = '';
+        const originalConsoleLog = console.log;
+        console.log = function(...args) {
+          const message = args.map(arg => typeof arg === 'object' ? JSON.stringify(arg) : String(arg)).join(' ');
+          consoleOutput += message + '\n';
+          // originalConsoleLog.apply(console, args); /* Uncomment `originalConsoleLog` to log to the console as well */
+        };
+
+        /* Evaluate TypeScript code */
+        if (languageSelector.value === 'typescript') {
+          /* Add the TypeScript compiler */
+          if (!window.ts) {
+            const script = document.createElement('script');
+            script.src = 'https://cdn.jsdelivr.net/npm/typescript@5.3.3/lib/typescript.min.js';
+
+            script.async = true;
+            script.defer = true;
+            document.head.appendChild(script);
+
+            script.onload = () => {
+              console.info('TypeScript compiler loaded.');
+              runCode();
+            };
+            script.onerror = () => {
+              console.error('Failed to load TypeScript compiler.');
+              document.getElementById('output').value = 'Error: Failed to load TypeScript compiler.';
+            };
+
+            return;
+          }
+
+          /* Transpile TypeScript to JavaScript */
+          const ts = window.ts;
+          const transpileResult = ts.transpileModule(code, {
+            compilerOptions: { module: ts.ModuleKind.ESNext }
+          });
+          transpiledCode = transpileResult.outputText;
+
+          try {
+            const result = eval(transpiledCode);
+            if (consoleOutput) {
+              output.value = consoleOutput.trim();
+            } else {
+              output.value = result === undefined ? '' : String(result);
+            }
+          } catch (e) {
+            output.value = 'Error: ' + e.message;
+          }
+
+        }
+
+        /* Evaluate JavaScript code */
+        if (languageSelector.value === 'javascript') {
+          try {
+            const result = eval(code);
+            if (consoleOutput) {
+              output.value = consoleOutput.trim();
+            } else {
+              output.value = result === undefined ? '' : String(result);
+            }
+          } catch (e) {
+            output.value = 'Error: ' + e.message;
+          }
+        }
+
+        console.log = originalConsoleLog;
+
+        /* Store the input code in localStorage */
+        const lang = languageSelector.options[languageSelector.selectedIndex].value;
+        localStorage.setItem(`console_input_${lang}`, code);
+      });
+    }
+
+    /* About dialog */
+    const aboutDialog = document.getElementById('about');
+    const closeDialogButton = document.getElementById('closeDialog');
+    closeDialogButton.addEventListener('click', () => {
+      aboutDialog.close();
+      localStorage.setItem('aboutDialogClosed', 'true');
+    });
+
+    /* Open the dialog on first page load */
+    window.addEventListener('DOMContentLoaded', () => {
+      if (!localStorage.getItem('aboutDialogClosed')) {
+        aboutDialog.showModal();
+      }
+    });
+
+    /* Open the dialog when the user clicks the "About" button */
+    const aboutButton = document.getElementById('aboutButton');
+    aboutButton.addEventListener('click', () => {
+      if (!aboutDialog.open) {
+        aboutDialog.showModal();
+      } else {
+        aboutDialog.close();
+      }
+    });
+  </script>
+</body>
+</html>

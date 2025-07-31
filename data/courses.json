@@ -1,0 +1,238 @@
+[
+  {
+    "groups": "Dev",
+    "title": "React: Using TypeScript",
+    "url": "https://www.linkedin.com/learning/react-using-typescript-23743818/",
+    "completed": "2024-11-01"
+  },
+  {
+    "groups": "Dev",
+    "title": "TypeScript Essential Training",
+    "url": "https://www.linkedin.com/learning/typescript-essential-training-14687057",
+    "completed": "2024-11-01"
+  },
+  {
+    "groups": "Ops",
+    "title":"Practical GitHub Actions",
+    "url": "https://www.linkedin.com/learning/practical-github-actions",
+    "completed": null
+  },
+  {
+    "groups": "Ops",
+    "title":"Build and Deploy Containerized Apps with GitHub Actions",
+    "url": "https://www.linkedin.com/learning/build-and-deploy-containerized-apps-with-github-actions",
+    "completed": null
+  },
+  {
+    "groups": "Ops",
+    "title":"Advanced GitHub Actions",
+    "url": "https://www.linkedin.com/learning/advanced-github-actions",
+    "completed": null
+  },
+  {
+    "groups": "Dev",
+    "title":"FARM Stack",
+    "url": "https://www.youtube.com/watch?v=PWG7NlUDVaA",
+    "completed": null
+  },
+  {
+    "groups": "Ops",
+    "title":"Docker Essential Training",
+    "url": "https://www.linkedin.com/learning/docker-essential-training/",
+    "completed": null
+  },
+  {
+    "groups": "Dev",
+    "title":"Learning MongoDB",
+    "url": "https://www.linkedin.com/learning/learning-mongodb-17360744/",
+    "completed": null
+  },
+  {
+    "groups": "Dev",
+    "title":"Developing for Web Performance",
+    "url": "https://www.linkedin.com/learning/developing-for-web-performance",
+    "completed": null
+  },
+  {
+    "groups": "Ops",
+    "title":"Learning GitHub Pages",
+    "url": "https://www.linkedin.com/learning/learning-github-pages",
+    "completed": null
+  },
+  {
+    "groups": "Dev",
+    "title":"Advanced Python: Practical Database Examples",
+    "url": "https://www.linkedin.com/learning/advanced-python-practical-database-examples/",
+    "completed": null
+  },
+  {
+    "groups": "Dev",
+    "title":"Advance Your NodeJS Skills",
+    "url": "https://www.linkedin.com/learning/paths/advance-your-node-js-skills",
+    "completed": null
+  },
+  {
+    "groups": "Dev",
+    "title":"Become a Django Devloper",
+    "url": "https://www.linkedin.com/learning/paths/become-a-django-developer",
+    "completed": null
+  },
+  {
+    "groups": "AI/ML",
+    "title": "Getting Started with Generative AI",
+    "url": "https://www.linkedin.com/learning/paths/getting-started-with-ai-and-machine-learning",
+    "completed": null
+  },
+  {
+    "groups": "AI/ML",
+    "title": "Building Generative AI for Business Professionals",
+    "url": "https://www.linkedin.com/learning/paths/building-generative-ai-skills-for-business-professionals",
+    "completed": null
+  },
+  {
+    "groups": "AI/ML",
+    "title": "AI Essentials for User Experience Designers",
+    "url": "https://www.linkedin.com/learning/paths/ai-essentials-for-user-experience-designers",
+    "completed": null
+  },
+  {
+    "groups": "Dev",
+    "title": "Learning MUI",
+    "url": "https://mui.com/material-ui/getting-started/learn/",
+    "completed": null
+  },
+  {
+    "groups": "Dev",
+    "title": "MUI5 (Material UI) Crash Course",
+    "url": "https://www.youtube.com/watch?v=o1chMISeTC0",
+    "completed": null
+  },
+  {
+    "groups": "Dev",
+    "title": "React + Material UI - From zero to hero",
+    "url": "https://www.youtube.com/playlist?list=PLDxCaNaYIuUlG5ZqoQzFE27CUOoQvOqnQ",
+    "completed": null
+  },
+  {
+    "groups": "Dev",
+    "title": "Customizing Theme, Palette, and Colors with Material UI (MUI)",
+    "url": "https://muhimasri.com/blogs/how-to-customize-theme-and-colors-in-material-ui/",
+    "completed": null
+  },
+  {
+    "groups": "UX",
+    "title": "Design for the 21st Century with Don Norman",
+    "url": "https://www.interaction-design.org/courses/design-for-the-21st-century",
+    "completed": null
+  },
+  {
+    "groups": "UX",
+    "title": "Advance Your Skills as a User Experience Researcher",
+    "url": "https://www.linkedin.com/learning/paths/advance-your-skills-as-a-user-experience-researcher",
+    "completed": null
+  },
+  {
+    "groups": "UX",
+    "title": "UX Foundations: Research",
+    "url": "https://www.linkedin.com/learning/ux-foundations-research-19417883",
+    "completed": null
+  },
+  {
+    "groups": "UX",
+    "title": "Agile User Experience Design and Research",
+    "url": "https://www.linkedin.com/learning/agile-user-experience-design-and-research",
+    "completed": null
+  },
+  {
+    "groups": "UX",
+    "title": "Advance Your Skills as a User Experience Researcher",
+    "url": "https://www.linkedin.com/learning/paths/advance-your-skills-as-a-user-experience-researcher",
+    "completed": null
+  },
+  {
+    "groups": "UX",
+    "title": "Interaction Design: Projects and Platforms",
+    "url": "https://www.linkedin.com/learning/interaction-design-projects-and-platforms/design-anything",
+    "completed": null
+  },
+  {
+    "groups": "UX",
+    "title": "Improve your UX Design Skils",
+    "url": "https://www.linkedin.com/learning/paths/improve-your-ux-design-skills",
+    "completed": null
+  },
+  {
+    "groups": "UX",
+    "title": "UX Foundations: Usability Testing",
+    "url": "https://www.linkedin.com/learning/ux-foundations-usability-testing/usability-testing",
+    "completed": null
+  },
+  {
+    "groups": "UX",
+    "title": "Design for the 21st Century with Don Norman",
+    "url": "https://www.interaction-design.org/courses/design-for-the-21st-century",
+    "completed": null
+  },
+  {
+    "groups": "UX",
+    "title": "Information Visualization",
+    "url": "https://www.interaction-design.org/courses/information-visualization-infovis",
+    "completed": null
+  },
+  {
+    "groups": "UX",
+    "title": "UX Designer Path",
+    "url": "https://www.interaction-design.org/courses?learningPath=ux_designer",
+    "completed": null
+  },
+  {
+    "groups": "UX",
+    "title": "Usability Expert Path",
+    "url": "https://www.interaction-design.org/courses?learningPath=usability_expert",
+    "completed": null
+  },
+  {
+    "groups": "UX",
+    "title": "Brand Design Foundations",
+    "url": "https://www.linkedin.com/learning/brand-design-foundations",
+    "completed": null
+  },
+  {
+    "groups": "UX",
+    "title": "Project Management for Creative Projects",
+    "url": "https://www.linkedin.com/learning/project-management-for-creative-projects-3/how-do-you-manage-creative-projects",
+    "completed": null
+  },
+  {
+    "groups": "UX",
+    "title": "A Systematic Creative Process for Designers",
+    "url": "https://www.linkedin.com/learning/a-systematic-creative-process-for-designers",
+    "completed": null
+  },
+  {
+    "groups": "Design",
+    "title": "Improve Your Drawing Skills",
+    "url": "https://www.linkedin.com/learning/paths/improve-your-drawing-skills",
+    "completed": null
+  },
+  {
+    "groups": "Leadership",
+    "title": "Managing and Leading Developers",
+    "url": "https://www.linkedin.com/learning/paths/managing-and-leading-developers",
+    "completed": null
+  },
+  {
+    "groups": "Leadership",
+    "title": "Technology Leadership",
+    "url": "https://www.linkedin.com/learning/paths/master-in-demand-skills-for-technology-leadership",
+    "completed": null
+  },
+  {
+    "groups": "Leadership",
+    "title": "Master Digital Transformation",
+    "url": "https://www.linkedin.com/learning/paths/master-digital-transformation",
+    "completed": null
+  }
+]
+
+  

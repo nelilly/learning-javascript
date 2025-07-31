@@ -1,0 +1,612 @@
+[
+  {
+    "url": "Attribution_Reporting_API",
+    "name": "Attribution Reporting API",
+    "experimental": true
+  },
+  {
+    "url": "Audio_Output_Devices_API",
+    "name": "Audio Output Devices API",
+    "experimental": true
+  },
+  {
+    "url": "Background_Fetch_API",
+    "name": "Background Fetch API",
+    "experimental": true
+  },
+  {
+    "url": "Background_Synchronization_API",
+    "name": "Background Synchronization API"
+  },
+  {
+    "url": "Background_Tasks_API",
+    "name": "Background Tasks API"
+  },
+  {
+    "url": "Badging_API",
+    "name": "Badging API"
+  },
+  {
+    "url": "Barcode_Detection_API",
+    "name": "Barcode Detection API",
+    "experimental": true
+  },
+  {
+    "url": "Battery_Status_API",
+    "name": "Battery Status API"
+  },
+  {
+    "url": "Beacon_API",
+    "name": "Beacon API"
+  },
+  {
+    "url": "Web_Bluetooth_API",
+    "name": "Web Bluetooth API",
+    "experimental": true
+  },
+  {
+    "url": "Broadcast_Channel_API",
+    "name": "Broadcast Channel API"
+  },
+  {
+    "url": "CSS_Custom_Highlight_API",
+    "name": "CSS Custom Highlight API"
+  },
+  {
+    "url": "CSS_Font_Loading_API",
+    "name": "CSS Font Loading API"
+  },
+  {
+    "url": "CSS_Painting_API",
+    "name": "CSS Painting API",
+    "experimental": true
+  },
+  {
+    "url": "CSS_Properties_and_Values_API",
+    "name": "CSS Properties and Values API"
+  },
+  {
+    "url": "CSS_Typed_OM_API",
+    "name": "CSS Typed Object Model API"
+  },
+  {
+    "url": "CSS_Object_Model",
+    "name": "CSS Object Model (CSSOM)"
+  },
+  {
+    "url": "Canvas_API",
+    "name": "Canvas API"
+  },
+  {
+    "url": "Channel_Messaging_API",
+    "name": "Channel Messaging API"
+  },
+  {
+    "url": "Clipboard_API",
+    "name": "Clipboard API"
+  },
+  {
+    "url": "Compression_Streams_API",
+    "name": "Compression Streams API"
+  },
+  {
+    "url": "Compute_Pressure_API",
+    "name": "Compute Pressure API",
+    "experimental": true
+  },
+  {
+    "url": "Console_API",
+    "name": "Console API"
+  },
+  {
+    "url": "Contact_Picker_API",
+    "name": "Contact Picker API",
+    "experimental": true
+  },
+  {
+    "url": "Content_Index_API",
+    "name": "Content Index API",
+    "experimental": true
+  },
+  {
+    "url": "Cookie_Store_API",
+    "name": "Cookie Store API"
+  },
+  {
+    "url": "Credential_Management_API",
+    "name": "Credential Management API"
+  },
+  {
+    "url": "Document_Object_Model",
+    "name": "Document Object Model (DOM)"
+  },
+  {
+    "url": "Device_Memory_API",
+    "name": "Device Memory API"
+  },
+  {
+    "url": "Device_orientation_events",
+    "name": "Device orientation events"
+  },
+  {
+    "url": "Device_Posture_API",
+    "name": "Device Posture API",
+    "experimental": true
+  },
+  {
+    "url": "Document_Picture-in-Picture_API",
+    "name": "Document Picture-in-Picture API",
+    "experimental": true
+  },
+  {
+    "url": "EditContext_API",
+    "name": "EditContext API",
+    "experimental": true
+  },
+  {
+    "url": "Encoding_API",
+    "name": "Encoding API"
+  },
+  {
+    "url": "Encrypted_Media_Extensions_API",
+    "name": "Encrypted Media Extensions API"
+  },
+  {
+    "url": "EyeDropper_API",
+    "name": "EyeDropper API",
+    "experimental": true
+  },
+  {
+    "url": "FedCM_API",
+    "name": "Federated Credential Management (FedCM) API",
+    "experimental": true
+  },
+  {
+    "url": "Fenced_frame_API",
+    "name": "Fenced Frame API",
+    "experimental": true
+  },
+  {
+    "url": "Fetch_API",
+    "name": "Fetch API"
+  },
+  {
+    "url": "fetchLater_API",
+    "name": "fetchLater() API",
+    "experimental": true
+  },
+  {
+    "url": "File_API",
+    "name": "File API"
+  },
+  {
+    "url": "File_System_API",
+    "name": "File System API"
+  },
+  {
+    "url": "File_and_Directory_Entries_API",
+    "name": "File and Directory Entries API"
+  },
+  {
+    "url": "Force_Touch_events",
+    "name": "Force Touch events",
+    "nonStandard": true
+  },
+  {
+    "url": "Fullscreen_API",
+    "name": "Fullscreen API"
+  },
+  {
+    "url": "Gamepad_API",
+    "name": "Gamepad API"
+  },
+  {
+    "url": "Geolocation_API",
+    "name": "Geolocation API"
+  },
+  {
+    "url": "Geometry_interfaces",
+    "name": "Geometry interfaces"
+  },
+  {
+    "url": "HTML_DOM_API",
+    "name": "The HTML DOM API"
+  },
+  {
+    "url": "HTML_Drag_and_Drop_API",
+    "name": "HTML Drag and Drop API"
+  },
+  {
+    "url": "History_API",
+    "name": "History API"
+  },
+  {
+    "url": "Houdini_APIs",
+    "name": "Houdini APIs"
+  },
+  {
+    "url": "Idle_Detection_API",
+    "name": "Idle Detection API",
+    "experimental": true
+  },
+  {
+    "url": "MediaStream_Image_Capture_API",
+    "name": "MediaStream Image Capture API"
+  },
+  {
+    "url": "IndexedDB_API",
+    "name": "IndexedDB API"
+  },
+  {
+    "url": "Ink_API",
+    "name": "Ink API",
+    "experimental": true
+  },
+  {
+    "url": "InputDeviceCapabilities_API",
+    "name": "InputDeviceCapabilities API",
+    "experimental": true
+  },
+  {
+    "url": "Insertable_Streams_for_MediaStreamTrack_API",
+    "name": "Insertable Streams for MediaStreamTrack API"
+  },
+  {
+    "url": "Intersection_Observer_API",
+    "name": "Intersection Observer API"
+  },
+  {
+    "url": "Invoker_Commands_API",
+    "name": "Invoker Commands API"
+  },
+  {
+    "url": "JS_Self-Profiling_API",
+    "name": "JS Self-Profiling API",
+    "experimental": true
+  },
+  {
+    "url": "Keyboard_API",
+    "name": "Keyboard API",
+    "experimental": true
+  },
+  {
+    "url": "Launch_Handler_API",
+    "name": "Launch Handler API",
+    "experimental": true
+  },
+  {
+    "url": "Local_Font_Access_API",
+    "name": "Local Font Access API",
+    "experimental": true
+  },
+  {
+    "url": "Media_Capabilities_API",
+    "name": "Media Capabilities API"
+  },
+  {
+    "url": "Media_Capture_and_Streams_API",
+    "name": "Media Capture and Streams API (Media Stream)"
+  },
+  {
+    "url": "Media_Session_API",
+    "name": "Media Session API"
+  },
+  {
+    "url": "Media_Source_Extensions_API",
+    "name": "Media Source API",
+    "experimental": true
+  },
+  {
+    "url": "MediaStream_Recording_API",
+    "name": "MediaStream Recording API"
+  },
+  {
+    "url": "Navigation_API",
+    "name": "Navigation API",
+    "experimental": true
+  },
+  {
+    "url": "Network_Information_API",
+    "name": "Network Information API"
+  },
+  {
+    "url": "Page_Visibility_API",
+    "name": "Page Visibility API"
+  },
+  {
+    "url": "Payment_Handler_API",
+    "name": "Payment Handler API",
+    "experimental": true
+  },
+  {
+    "url": "Payment_Request_API",
+    "name": "Payment Request API"
+  },
+  {
+    "url": "Performance_API",
+    "name": "Performance APIs"
+  },
+  {
+    "url": "Web_Periodic_Background_Synchronization_API",
+    "name": "Web Periodic Background Synchronization API",
+    "experimental": true
+  },
+  {
+    "url": "Permissions_API",
+    "name": "Permissions API"
+  },
+  {
+    "url": "Picture-in-Picture_API",
+    "name": "Picture-in-Picture API"
+  },
+  {
+    "url": "Pointer_events",
+    "name": "Pointer events"
+  },
+  {
+    "url": "Pointer_Lock_API",
+    "name": "Pointer Lock API"
+  },
+  {
+    "url": "Popover_API",
+    "name": "Popover API"
+  },
+  {
+    "url": "Presentation_API",
+    "name": "Presentation API",
+    "experimental": true
+  },
+  {
+    "url": "Prioritized_Task_Scheduling_API",
+    "name": "Prioritized Task Scheduling API"
+  },
+  {
+    "url": "Push_API",
+    "name": "Push API"
+  },
+  {
+    "url": "Remote_Playback_API",
+    "name": "Remote Playback API"
+  },
+  {
+    "url": "Reporting_API",
+    "name": "Reporting API"
+  },
+  {
+    "url": "Resize_Observer_API",
+    "name": "Resize Observer API"
+  },
+  {
+    "url": "SVG_API",
+    "name": "SVG API"
+  },
+  {
+    "url": "Screen_Capture_API",
+    "name": "Screen Capture API"
+  },
+  {
+    "url": "Screen_Orientation_API",
+    "name": "Screen Orientation API"
+  },
+  {
+    "url": "Screen_Wake_Lock_API",
+    "name": "Screen Wake Lock API"
+  },
+  {
+    "url": "Selection_API",
+    "name": "Selection API"
+  },
+  {
+    "url": "Sensor_APIs",
+    "name": "Sensor APIs"
+  },
+  {
+    "url": "Server-sent_events",
+    "name": "Server-sent events"
+  },
+  {
+    "url": "Service_Worker_API",
+    "name": "Service Worker API"
+  },
+  {
+    "url": "Shared_Storage_API",
+    "name": "Shared Storage API",
+    "experimental": true
+  },
+  {
+    "url": "Speculation_Rules_API",
+    "name": "Speculation Rules API",
+    "experimental": true
+  },
+  {
+    "url": "Storage_API",
+    "name": "Storage API"
+  },
+  {
+    "url": "Storage_Access_API",
+    "name": "Storage Access API"
+  },
+  {
+    "url": "Streams_API",
+    "name": "Streams API"
+  },
+  {
+    "url": "Topics_API",
+    "name": "Topics API",
+    "experimental": true,
+    "nonStandard": true
+  },
+  {
+    "url": "Touch_events",
+    "name": "Touch events"
+  },
+  {
+    "url": "Trusted_Types_API",
+    "name": "Trusted Types API"
+  },
+  {
+    "url": "UI_Events",
+    "name": "UI Events"
+  },
+  {
+    "url": "URL_API",
+    "name": "URL API"
+  },
+  {
+    "url": "URL_Fragment_Text_Directives",
+    "name": "URL Fragment Text Directives"
+  },
+  {
+    "url": "URL_Pattern_API",
+    "name": "URL Pattern API",
+    "experimental": true
+  },
+  {
+    "url": "User-Agent_Client_Hints_API",
+    "name": "User-Agent Client Hints API",
+    "experimental": true
+  },
+  {
+    "url": "Vibration_API",
+    "name": "Vibration API"
+  },
+  {
+    "url": "View_Transition_API",
+    "name": "View Transition API"
+  },
+  {
+    "url": "VirtualKeyboard_API",
+    "name": "VirtualKeyboard API",
+    "experimental": true
+  },
+  {
+    "url": "Visual_Viewport_API",
+    "name": "Visual Viewport API"
+  },
+  {
+    "url": "Web_Animations_API",
+    "name": "Web Animations API"
+  },
+  {
+    "url": "Web_Audio_API",
+    "name": "Web Audio API"
+  },
+  {
+    "url": "Web_Authentication_API",
+    "name": "Web Authentication API"
+  },
+  {
+    "url": "Web_components",
+    "name": "Web Components"
+  },
+  {
+    "url": "Web_Crypto_API",
+    "name": "Web Crypto API"
+  },
+  {
+    "url": "Web_Locks_API",
+    "name": "Web Locks API"
+  },
+  {
+    "url": "Web_MIDI_API",
+    "name": "Web MIDI API"
+  },
+  {
+    "url": "Web_NFC_API",
+    "name": "Web NFC API",
+    "experimental": true
+  },
+  {
+    "url": "Notifications_API",
+    "name": "Notifications API"
+  },
+  {
+    "url": "Web_Serial_API",
+    "name": "Web Serial API",
+    "experimental": true
+  },
+  {
+    "url": "Web_Share_API",
+    "name": "Web Share API"
+  },
+  {
+    "url": "Web_Speech_API",
+    "name": "Web Speech API"
+  },
+  {
+    "url": "Web_Storage_API",
+    "name": "Web Storage API"
+  },
+  {
+    "url": "Web_Workers_API",
+    "name": "Web Workers API"
+  },
+  {
+    "url": "WebCodecs_API",
+    "name": "WebCodecs API"
+  },
+  {
+    "url": "WebGL_API",
+    "name": "WebGL: 2D and 3D graphics for the web"
+  },
+  {
+    "url": "WebGPU_API",
+    "name": "WebGPU API",
+    "experimental": true
+  },
+  {
+    "url": "WebHID_API",
+    "name": "WebHID API",
+    "experimental": true
+  },
+  {
+    "url": "WebOTP_API",
+    "name": "WebOTP API"
+  },
+  {
+    "url": "WebRTC_API",
+    "name": "WebRTC API"
+  },
+  {
+    "url": "WebSockets_API",
+    "name": "The WebSocket API (WebSockets)"
+  },
+  {
+    "url": "WebTransport_API",
+    "name": "WebTransport API"
+  },
+  {
+    "url": "WebUSB_API",
+    "name": "WebUSB API",
+    "experimental": true
+  },
+  {
+    "url": "WebVR_API",
+    "name": "WebVR API",
+    "deprecated": true,
+    "nonStandard": true
+  },
+  {
+    "url": "WebVTT_API",
+    "name": "WebVTT API"
+  },
+  {
+    "url": "WebXR_Device_API",
+    "name": "WebXR Device API",
+    "experimental": true
+  },
+  {
+    "url": "Window_Controls_Overlay_API",
+    "name": "Window Controls Overlay API",
+    "experimental": true
+  },
+  {
+    "url": "Window_Management_API",
+    "name": "Window Management API",
+    "experimental": true
+  },
+  {
+    "url": "XMLHttpRequest_API",
+    "name": "XMLHttpRequest API"
+  }
+]

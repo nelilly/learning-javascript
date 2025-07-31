@@ -1,0 +1,78 @@
+{
+  "name": "Nathan E. Lilly",
+  "title": "Senior UI/UX Developer",
+  "role": "UX Engineer, UI Development, Design",
+  "summary": "",
+  "experience": [
+    {
+      "title": "Senior UI/UX Developer",
+      "employer": "Comcast NBCUniversal",
+      "location": "Virtual, PA",
+      "description": "Enhance developer experience by leading teams/projects and providing guidance on UI/UX development practices across teams in the DevX organization for observability applications that service Comcast NBCUniversal teams.\nDesign: images, process flows, wireframes, and prototypes.\nUX practices: usability, accessibility, human/computer interaction, design systems, personas, and journey maps.\nUI development: programming, coding, web standards, responsive device support, cross-browser support.",
+      "date": {
+        "start": "6/2021",
+        "end": null
+      },
+      "skills": ["HTML", "HTML5", "CSS", "JavaScript", "React"]
+    },
+    {
+      "title": "UI Engineer",
+      "employer": "Comcast NBCUniversal",
+      "location": "Philadelphia, PA",
+      "description": "",
+      "date": {
+        "start": "6/2017",
+        "end": "6/2021"
+      },
+      "skills": ["HTML", "HTML5", "CSS", "JavaScript", "React"]
+    }
+  ],
+  "projects": "",
+  "profiles": [
+    {
+      "label": "",
+      "uri": ""
+    }
+  ],
+  "skills": {
+    "development": {
+      "principles": ["Software Development Lifecycle", "Code Quality"],
+      "languages": ["Node", "Python", "PHP", "ASP", "CGI", "NoSQL", "MongoDB", "SQL", "MySQL", "XML", "XSL", "RSS"],
+      "stacks": ["FARM: FastApi React MongoDB", "MERN: Mongo Express React Node", "JAM: JavaScript API Markup", "LAMP: Linux Apache MySQL PHP"],
+      "platforms": ["Apache", "Nginx", "Docker"]
+    },
+    "ux": ["Usability Testing", "Web Accessibility", "Personas", "Journey Maps", "Cognitive Psychology", "Game Theory", "Gamification"],
+    "ui": ["HTML5", "CSS3", "JavaScript", "React.js", "Next.js", "Redux", "SVG", "D3.js", "jQuery"],
+    "design": {
+      "principles": ["Design Thinking", "Gestalt Design Principles"],
+      "applications": ["Photoshop", "Illustrator", "InDesign", "XD", "Figma", "Abstract; ProCreate", "FontForge"]
+    }
+  },
+  "education": [
+    {
+      "degree": "Bachelor of Art",
+      "major": "Fine Art",
+      "school": "Lock Haven University",
+      "location": "Philadelphia, PA",
+      "date": {
+        "start": "8/1991",
+        "end": "5/1996"
+      }
+    },
+    {
+      "degree": "Diploma",
+      "major": "Commercial Art",
+      "school": "Mastbaum AVTS",
+      "location": "Philadelphia, PA",
+      "date": {
+        "start": "9/1987",
+        "end": "6/1991"
+      }
+    }
+  ],
+  "certifications": [],
+  "volunteer": []
+}
+
+
+

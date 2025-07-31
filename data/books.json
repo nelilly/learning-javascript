@@ -1,0 +1,779 @@
+[
+  {
+    "title": "How Buildings Learn",
+    "author": [
+      "Stewart Brand"
+    ],
+    "isbn10": "0140139966",
+    "isbn13": "9780140139969",
+    "tags": [
+      "architecture",
+      "design",
+      "software architecture"
+    ]
+  },
+  {
+    "title": "Art is a Way of Knowing",
+    "author": [
+      "Pat B. Allen"
+    ],
+    "isbn10": "1570620784",
+    "isbn13": "9781645472261",
+    "tags": [
+      "art",
+      "creativity"
+    ]
+  },
+  {
+    "title": "Ways of Seeing",
+    "author": [
+      "John Berger"
+    ],
+    "isbn10": "0140135154",
+    "isbn13": "9780140135152",
+    "tags": [
+      "art",
+      "creativity"
+    ]
+  },
+  {
+    "title": "Little House in the Big Woods",
+    "author": [
+      "Laura Ingalls Wilder"
+    ],
+    "isbn10": "0064400011",
+    "isbn13": "9780064400015",
+    "tags": [
+      "fiction",
+      "historical fiction"
+    ]
+  },
+  {
+    "title": "Fluent React",
+    "author": [
+      "Tejas Kumar"
+    ],
+    "isbn13": "9781098138714",
+    "tags": [
+      "react",
+      "javascript"
+    ],
+    "isbn10": "1098138714"
+  },
+  {
+    "title": "Atomic Habits",
+    "author": [
+      "James Clear"
+    ],
+    "isbn13": "9780735211292",
+    "tags": [
+      "habits"
+    ],
+    "isbn10": "0735211299"
+  },
+  {
+    "title": "Farmer Boy",
+    "author": [
+      "Laura Ingalls Wilder"
+    ],
+    "isbn13": "9780064400039",
+    "tags": [
+      "fiction",
+      "historical fiction"
+    ],
+    "isbn10": "0064400038"
+  },
+  {
+    "title": "Building Micro Frontends",
+    "author": [
+      "Luca Mezzalira"
+    ],
+    "isbn13": "9781617295340",
+    "tags": [
+      "javascript",
+      "software architecture"
+    ]
+  },
+  {
+    "title": "Little House on the Prairie",
+    "author": [
+      "Laura Ingalls Wilder"
+    ],
+    "isbn13": "9780064400022",
+    "tags": [
+      "fiction",
+      "historical fiction"
+    ],
+    "isbn10": "0064400020"
+  },
+  {
+    "title": "Developer Relations",
+    "author": [
+      "Caroline Lewko",
+      "James Parton"
+    ],
+    "isbn13": "9781492081950",
+    "tags": [
+      "developer relations",
+      "user experience",
+      "customer experience",
+      "developer experience"
+    ],
+    "isbn10": "149208195X"
+  },
+  {
+    "title": "Steve Jobs",
+    "author": [
+      "Walter Isaacson"
+    ],
+    "isbn13": "9781451648539",
+    "tags": [
+      "biography"
+    ],
+    "type": "audio",
+    "isbn10": "1451648537"
+  },
+  {
+    "title": "The Manager’s Path",
+    "author": [
+      "Camille Fournier"
+    ],
+    "isbn13": "9781491973840",
+    "tags": [
+      "management",
+      "software devlopment lifecycle"
+    ],
+    "isbn10": "149197384X"
+  },
+  {
+    "title": "The First 20 Hours",
+    "author": [
+      "Josh Kaufman"
+    ],
+    "isbn13": "9781591842942",
+    "tags": [
+      "learning"
+    ],
+    "isbn10": "1591842948"
+  },
+  {
+    "title": "Human Interface Guidelines",
+    "author": [
+      "Apple Computer Inc. "
+    ],
+    "isbn13": "9780321535046",
+    "tags": [
+      "design",
+      "user experience"
+    ],
+    "isbn10": "032153504X"
+  },
+  {
+    "title": "The DevOps Handbook",
+    "author": [
+      "Gene Kim",
+      "Patrick Debois",
+      "John Willis",
+      "Jez Humble",
+      "Nicole Forsgren"
+    ],
+    "isbn13": "9781942788003",
+    "tags": [
+      "devops",
+      "software development lifecycle"
+    ],
+    "isbn10": "1942788002"
+  },
+  {
+    "title": "Composing Software",
+    "author": [
+      "Eric Elliot"
+    ],
+    "isbn13": "9781680502064",
+    "tags": [
+      "javascript",
+      "software architecture",
+      "programming"
+    ],
+    "isbn10": "168050206X"
+  },
+  {
+    "title": "How Drawings Work",
+    "author": [
+      "Susan Piedmont-Palladino"
+    ],
+    "isbn13": "9781568980070",
+    "tags": [
+      "architecture",
+      "design"
+    ],
+    "isbn10": "1568980074"
+  },
+  {
+    "title": "What Got You Here Won’t Get You There",
+    "author": [
+      "Marshall Goldsmith"
+    ],
+    "isbn13": "9781422127343",
+    "tags": [
+      "management"
+    ],
+    "isbn10": "1422127342"
+  },
+  {
+    "title": "Fluent Forever",
+    "author": [
+      "Gabriel Wyner"
+    ],
+    "isbn13": "9780385348116",
+    "tags": [
+      "learning",
+      "language learning"
+    ],
+    "type": "audio",
+    "isbn10": "0385348118"
+  },
+  {
+    "title": "Organize for Complexity",
+    "author": [
+      "Niels Pflaeging"
+    ],
+    "isbn13": "9783945749000",
+    "tags": [
+      "management",
+      "software development lifecycle",
+      "organizational dynamics"
+    ],
+    "isbn10": "394574900X"
+  },
+  {
+    "title": "Overcoming Organizational Defenses",
+    "author": [
+      "Chris Argyris"
+    ],
+    "isbn13": "9780201625830",
+    "tags": [
+      "management",
+      "organizational dynamics"
+    ],
+    "isbn10": "0201625837"
+  },
+  {
+    "title": "Think Like a Programmer",
+    "author": [
+      "V. Anton Spraul"
+    ],
+    "isbn13": "9781593274242",
+    "tags": [
+      "programming",
+      "problem solving"
+    ],
+    "isbn10": "1593274246"
+  },
+  {
+    "title": "The Soul of a New Machine",
+    "author": [
+      "Tracy Kidder"
+    ],
+    "isbn13": "9780316491988",
+    "tags": [
+      "computers",
+      "history"
+    ],
+    "isbn10": "0316491987"
+  },
+  {
+    "title": "Articulating Design Decisions",
+    "author": [
+      "Tom Greever"
+    ],
+    "isbn13": "9781492079224",
+    "tags": [
+      "design",
+      "user experience"
+    ],
+    "isbn10": "1492079224"
+  },
+  {
+    "title": "The MacIntosh Way",
+    "author": [
+      "Guy Kawasaki"
+    ],
+    "isbn13": "9780671532020",
+    "tags": [
+      "apple",
+      "macintosh",
+      "marketing",
+      "community building",
+      "customer experience"
+    ],
+    "isbn10": "0671532022"
+  },
+  {
+    "title": "The Phoenix Project",
+    "author": [
+      "Gene Kim"
+    ],
+    "isbn13": "9780988262591",
+    "tags": [
+      "devops",
+      "software development lifecycle"
+    ],
+    "type": "audio",
+    "isbn10": "0988262592"
+  },
+  {
+    "title": "Continuous Delivery",
+    "author": [
+      "Jez Humble",
+      "David Farley"
+    ],
+    "isbn13": "9780321601919",
+    "tags": [
+      "devops",
+      "software development lifecycle"
+    ],
+    "isbn10": "0321601912"
+  },
+  {
+    "title": "Building Microservices",
+    "author": [
+      "Sam Newman"
+    ],
+    "isbn13": "9781491950353",
+    "tags": [
+      "software architecture",
+      "microservices"
+    ],
+    "isbn10": "1491950358"
+  },
+  {
+    "title": "JavaScript: The Good Parts",
+    "author": [
+      "Crockford"
+    ],
+    "isbn13": "9780596805524",
+    "tags": [
+      "javascript"
+    ],
+    "isbn10": "0596805527"
+  },
+  {
+    "title": "What We Owe To Each Other",
+    "author": [
+      "T.M. Scanlon"
+    ],
+    "isbn13": "9780674004256",
+    "tags": [
+      "philosophy"
+    ],
+    "isbn10": "067400425X"
+  },
+  {
+    "title": "Observability Engineering",
+    "author": [
+      "Charity Majors",
+      "Liz Fong-Jones"
+    ],
+    "isbn13": "9781098101016",
+    "tags": [
+      "observability",
+      "software architecture"
+    ],
+    "isbn10": "109810101X"
+  },
+  {
+    "title": "Distributed Tracing",
+    "author": [
+      "Yuri Shkuro"
+    ],
+    "isbn13": "9781098101023",
+    "tags": [
+      "observability",
+      "software architecture"
+    ],
+    "isbn10": "1098101028"
+  },
+  {
+    "title": "First, Break All the Rules",
+    "author": [
+      "Marcus Buckingham",
+      "Curt Coffman"
+    ],
+    "isbn13": "9780684852867",
+    "tags": [
+      "management"
+    ],
+    "isbn10": "0684852861"
+  },
+  {
+    "title": "On the Banks of Plum Creek",
+    "author": [
+      "Laura Ingalls Wilder"
+    ],
+    "isbn13": "9780064400046",
+    "tags": [
+      "fiction",
+      "historical fiction"
+    ],
+    "isbn10": "0064400046"
+  },
+  {
+    "title": "By the Shores of Silver Lake",
+    "author": [
+      "Laura Ingalls Wilder"
+    ],
+    "isbn13": "9780064400053",
+    "tags": [
+      "fiction",
+      "historical fiction"
+    ],
+    "isbn10": "0064400054"
+  },
+  {
+    "title": "The Long Winter",
+    "author": [
+      "Laura Ingalls Wilder"
+    ],
+    "isbn13": "9780064400060",
+    "tags": [
+      "fiction",
+      "historical fiction"
+    ],
+    "isbn10": "0064400062"
+  },
+  {
+    "title": "Little Town on the Prairie",
+    "author": [
+      "Laura Ingalls Wilder"
+    ],
+    "isbn13": "9780064400077",
+    "tags": [
+      "fiction",
+      "historical fiction"
+    ],
+    "isbn10": "0064400070"
+  },
+  {
+    "title": "These Happy Golden Years",
+    "author": [
+      "Laura Ingalls Wilder"
+    ],
+    "isbn13": "9780064400084",
+    "tags": [
+      "fiction",
+      "historical fiction"
+    ],
+    "isbn10": "0064400089"
+  },
+  {
+    "title": "The First Four Years",
+    "author": [
+      "Laura Ingalls Wilder"
+    ],
+    "isbn13": "9780064400091",
+    "tags": [
+      "fiction",
+      "historical fiction"
+    ],
+    "isbn10": "0064400097"
+  },
+  {
+    "title": "Tiny Habits",
+    "author": [
+      "BJ Fogg"
+    ],
+    "isbn13": "9780358122742",
+    "tags": [
+      "habits"
+    ],
+    "isbn10": "035812274X"
+  },
+  {
+    "title": "A Mind for Numbers",
+    "author": [
+      "Barbara Oakley"
+    ],
+    "isbn13": "9780143122774",
+    "tags": [
+      "learning"
+    ],
+    "isbn10": "0143122777"
+  },
+  {
+    "title": "Psycho-Cybernetics",
+    "author": [
+      "Maxwell Maltz"
+    ],
+    "isbn13": "9780671700754",
+    "tags": [
+      "psychology",
+      "self-help",
+      "cognitive science"
+    ],
+    "isbn10": "0671700758"
+  },
+  {
+    "title": "Visualize This",
+    "author": [
+      "Nathan Yau"
+    ],
+    "isbn13": "9781118462190",
+    "tags": [
+      "data visualization"
+    ],
+    "isbn10": "111846219X"
+  },
+  {
+    "title": "Designing Web Usability",
+    "author": [
+      "Jakob Nielsen"
+    ],
+    "isbn13": "9780201699478",
+    "tags": [
+      "design",
+      "user experience"
+    ],
+    "isbn10": "020169947X"
+  },
+  {
+    "title": "Don’t Make Me Think, Revisited",
+    "author": [
+      "Steve Krug"
+    ],
+    "isbn13": "9780321965516",
+    "tags": [
+      "design",
+      "user experience"
+    ],
+    "isbn10": "0321965515"
+  },
+  {
+    "title": "Sketching User Experiences",
+    "author": [
+      "Bill Buxton"
+    ],
+    "isbn13": "9780123740373",
+    "tags": [
+      "design",
+      "user experience"
+    ],
+    "isbn10": "0123740371"
+  },
+  {
+    "title": "Sketching User Experiences Workbook",
+    "author": [
+      "Saul Greenberg",
+      "Sheelagh Carpendale",
+      "Nic Marquardt",
+      "Bill Buxton"
+    ],
+    "isbn13": "9780123740373",
+    "tags": [
+      "design",
+      "user experience"
+    ],
+    "isbn10": "0123740371"
+  },
+  {
+    "title": "The Design of Everyday Things",
+    "author": [
+      "Don Norman"
+    ],
+    "isbn13": "9780465067107",
+    "tags": [
+      "design",
+      "user experience"
+    ],
+    "isbn10": "0465067107"
+  },
+  {
+    "title": "Introducing Python",
+    "author": [
+      "Bill Lubanovic"
+    ],
+    "isbn13": "9781492055020",
+    "tags": [
+      "python"
+    ],
+    "isbn10": "1492055026"
+  },
+  {
+    "title": "Big Jim and the White Boy",
+    "author": [
+      "Marcus Kwame Anderson",
+      "David F. Walker"
+    ],
+    "isbn13": "9781534311672",
+    "tags": [
+      "fiction",
+      "historical fiction"
+    ],
+    "isbn10": "153431167X"
+  },
+  {
+    "title": "UX Strategy",
+    "author": [
+      "Jaime Levy"
+    ],
+    "isbn13": "9781449379740",
+    "tags": [
+      "design",
+      "user experience"
+    ],
+    "isbn10": "1449379744"
+  },
+  {
+    "title": "Primal Branding",
+    "author": [
+      "Patrick Hanlon"
+    ],
+    "isbn13": "9780743212024",
+    "tags": [
+      "branding",
+      "marketing"
+    ],
+    "isbn10": "0743212021"
+  },
+  {
+    "title": "How to Read a Book",
+    "author": [
+      "Mortimer J. Adler",
+      "Charles Van Doren"
+    ],
+    "isbn13": "9780671212094",
+    "tags": [
+      "reading"
+    ],
+    "isbn10": "0671212095"
+  },
+  {
+    "title": "Designing Your Life",
+    "author": [
+      "Bill Burnett",
+      "Dave Evans"
+    ],
+    "isbn13": "9781101875322",
+    "tags": [
+      "design",
+      "life design"
+    ],
+    "isbn10": "1101875321"
+  },
+  {
+    "title": "Flow",
+    "author": [
+      "Mihaly Czikzentmihaly"
+    ],
+    "isbn13": "9780061339202",
+    "tags": [
+      "psychology",
+      "cognitive science"
+    ],
+    "isbn10": "0061339202"
+  },
+  {
+    "title": "Creativity",
+    "author": [
+      "Mihaly Czikzentmihaly"
+    ],
+    "isbn13": "9780062283252",
+    "tags": [
+      "psychology",
+      "cognitive science"
+    ],
+    "isbn10": "0062283255"
+  },
+  {
+    "title": "Drawing on the Right Side of the Brain",
+    "author": [
+      "Betty Edwards"
+    ],
+    "isbn13": "9781585429202",
+    "tags": [
+      "art",
+      "creativity",
+      "psychology",
+      "cognitive science"
+    ],
+    "isbn10": "1585429201"
+  },
+  {
+    "title": "When is Black Future Month?",
+    "author": [
+      "N.K. Jemisin"
+    ],
+    "isbn13": "9780316489664",
+    "tags": [
+      "fiction",
+      "science fiction"
+    ],
+    "isbn10": "031648966X"
+  },
+  {
+    "title": "You Don’t Know JS: Up & Goingby Kyle Simpson",
+    "author": [
+      "Kyle Simpson"
+    ],
+    "isbn13": "9781491924460",
+    "tags": [
+      "javascript"
+    ],
+    "isbn10": "1491924462"
+  },
+  {
+    "title": "You Don’t Know JS:  Scope & Closures",
+    "author": [
+      "Kyle Simpson"
+    ],
+    "isbn13": "9781491903915",
+    "tags": [
+      "javascript"
+    ],
+    "isbn10": "1491903914"
+  },
+  {
+    "title": "You Don’t Know JS: this & Object Prototypes",
+    "author": [
+      "Kyle Simpson"
+    ],
+    "isbn13": "9781491903953",
+    "tags": [
+      "javascript"
+    ],
+    "isbn10": "1491903957"
+  },
+  {
+    "title": "You Don’t Know JS:  Types & Grammar",
+    "author": [
+      "Kyle Simpson"
+    ],
+    "isbn13": "9781491903977",
+    "tags": [
+      "javascript"
+    ],
+    "isbn10": "1491903973"
+  },
+  {
+    "title": "You Don’t Know JS: Async & Performance",
+    "author": [
+      "Kyle Simpson"
+    ],
+    "isbn13": "9781491903960",
+    "tags": [
+      "javascript"
+    ],
+    "isbn10": "1491903965"
+  },
+  {
+    "title": "You Don’t Know JS: ES6 & Beyond",
+    "author": [
+      "Kyle Simpson"
+    ],
+    "isbn13": "9781491931820",
+    "tags": [
+      "javascript"
+    ],
+    "isbn10": "1491931828"
+  }
+]

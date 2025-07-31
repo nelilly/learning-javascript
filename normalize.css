@@ -1,0 +1,322 @@
+/* Design Tokens */
+:root {
+  /* scale */
+  --scale-0: 0;
+  --scale-1: 0.25rem;
+  --scale-2: 0.5rem;
+  --scale-3: 0.75rem;
+  --scale-4: 1rem;
+  --scale-5: 1.25rem;
+  --scale-6: 1.5rem;
+  --scale-7: 1.75rem;
+  --scale-8: 2rem;
+  --scale-9: 2.25rem;
+  --scale-10: 2.5rem;
+  --scale-11: 2.75rem;
+  --scale-12: 3rem;
+
+  /* SCALE: Major Third */
+  --scale-0: 0;
+  --scale-1: 0.25rem;
+  --scale-2: 0.5rem;
+  --scale-3: 0.75rem;
+  --scale-4: 1rem;
+  --scale-5: 1.25rem;
+  --scale-6: 1.5rem;
+  --scale-7: 1.75rem;
+  --scale-8: 2rem;
+  --scale-9: 2.25rem;
+  --scale-10: 2.5rem;
+  --scale-11: 2.75rem;
+  --scale-12: 3rem;
+
+  /* SPACING */
+  --spacing-0: var(--scale-0);
+  --spacing-1: var(--scale-1);
+  --spacing-2: var(--scale-2);
+  --spacing-3: var(--scale-3);
+  --spacing-4: var(--scale-4);
+  --spacing-5: var(--scale-5);
+  --spacing-6: var(--scale-6);
+  --spacing-7: var(--scale-7);
+  --spacing-8: var(--scale-8);
+  --spacing-9: var(--scale-9);
+
+  /* FONT SCALE */
+  /* Why must we use the same scale for both spacing and font size? */
+  /* font-size */
+  --font-size-sm: var(--scale-3);
+  --font-size-base: var(--scale-4);
+  --font-size-lg: var(--scale-5);
+  --font-size-xl: var(--scale-6);
+  --font-size-xxl: var(--scale-7);
+  --font-size-xxxl: var(--scale-8);
+  --font-size-xxxxl: var(--scale-9);
+  --font-size-xxxxxl: var(--scale-10);
+  --font-size-xxxxxxl: var(--scale-11);
+
+  /* Semantic font sizes */
+  --font-size-display: var(--font-size-xxxl);
+  --font-size-title: var(--font-size-xxl);
+  --font-size-heading: var(--font-size-xxl);
+  --font-size-subheading: var(--font-size-xl);
+  --font-size-body: var(--font-size-base);
+  --font-size-caption: var(--font-size-sm);
+  --font-size-small: var(--font-size-sm);
+  --font-size-legal: var(--font-size-sm);
+
+  /* palette */
+
+  /* semantic colors */
+  --color-text: #212529;
+  --color-text-secondary: #6c757d;
+  --color-text-muted: #adb5bd;
+  --color-text-inverse: #fff;
+  --color-background: #f8f9fa;
+  --color-background-secondary: #e9ecef;
+  --color-background-muted: #dee2e6;
+  --color-background-inverse: #343a40;
+  
+  --color-primary: #007bff;
+  --color-secondary: #6c757d;
+  --color-success: #28a745;
+  --color-danger: #dc3545;
+  --color-warning: #ffc107;
+  --color-info: #17a2b8;
+
+  /* black and white axis */
+  --color-black: #000;
+  --color-white: #fff;
+  --color-gray-100: #f8f9fa;
+  --color-gray-200: #e9ecef;
+  --color-gray-300: #dee2e6;
+
+  /* primary color */
+  --primary-hue: 0;
+
+  /* secondary color */
+  --secondary-hue: 120;
+
+  /* accent colors */
+  --color-accent-1: #ffda33;
+
+}
+
+/* Document */
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Sections */
+
+body {
+  margin: 0;
+}
+
+main {
+  display: block;
+}
+
+article {
+  display: block;
+}
+
+section {
+  display: block;
+}
+
+header {
+  display: block;
+}
+
+footer {
+  display: block;
+}
+
+nav {
+  display: block;
+}
+
+aside {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+/* Grouping content */
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Text-level semantics */
+a {
+  background-color: transparent;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+b,
+strong {
+  font-weight: bolder;
+}
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content */
+
+img {
+  border-style: none;
+}
+
+/* Forms */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+/* Interactive */
+
+details {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+/* Misc */
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+/* Accessibility Adjustments */

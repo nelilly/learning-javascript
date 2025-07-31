@@ -248,24 +248,23 @@ const months = [{ name: 'March', order: 3 }, { name: 'Feb', order: 2 }, { name: 
 const actionsByRole = Object.entries(tenant).reduce(
   (acc, currentValue) => {
     const roles = [...new Set(currentValue[1])];
-    roles.forEach((role) => {
-      acc[role] = acc[role] || [];
-      acc[role].push(`tenant.${currentValue[0]}`);
-    });
-    return acc;
+    return roles.reduce((roleAcc, role) => {
+      roleAcc[role] = [...(roleAcc[role] ?? []), `tenant.${currentValue[0]}`];
+      return roleAcc;
+    }, acc);
   },
   {}
 );
 
 // pivot Table
 // create pivotOn function
-const pivotOn = (data, key) => data.reduce((prev, cur) => {
-  const existing = prev.find((x) => x[key] === cur[key]);
+const pivotOn = (data, key) => data.reduce((prev, pivotedArray) => {
+  const existing = prev.find((x) => x[key] === pivotedArray[key]);
 
-  if (existing) { existing.values.push(cur); } else {
+  if (existing) { existing.values.push(pivotedArray); } else {
     prev.push({
-      [key]: cur[key],
-      values: [cur],
+      [key]: pivotedArray[key],
+      values: [pivotedArray],
     });
   }
 
@@ -273,3 +272,92 @@ const pivotOn = (data, key) => data.reduce((prev, cur) => {
 }, []);
 
 const pivotByGrade = pivotOn(crops, 'grade');
+/*
+[
+    {
+        "grade": "Grade A",
+        "values": [
+            {
+                "id": 1,
+                "grade": "Grade A",
+                "category": "Grains",
+                "subCategory": "Maize",
+                "sales": 1200
+            },
+            {
+                "id": 5,
+                "grade": "Grade A",
+                "category": "Grains",
+                "subCategory": "Maize",
+                "sales": 1200
+            }
+        ]
+    },
+    {
+        "grade": "Grade B",
+        "values": [
+            {
+                "id": 2,
+                "grade": "Grade B",
+                "category": "Grains",
+                "subCategory": "Wheat",
+                "sales": 130
+            },
+            {
+                "id": 3,
+                "grade": "Grade B",
+                "category": "Grains",
+                "subCategory": "Banana",
+                "sales": 1200
+            },
+            {
+                "id": 6,
+                "grade": "Grade B",
+                "category": "Grains",
+                "subCategory": "Wheat",
+                "sales": 130
+            },
+            {
+                "id": 7,
+                "grade": "Grade B",
+                "category": "Grains",
+                "subCategory": "Banana",
+                "sales": 1200
+            },
+            {
+                "id": 7,
+                "grade": "Grade B",
+                "category": "Grains",
+                "subCategory": "Banana",
+                "sales": 1200
+            }
+        ]
+    },
+    {
+        "grade": "Grade C",
+        "values": [
+            {
+                "id": 4,
+                "grade": "Grade C",
+                "category": "Grains",
+                "subCategory": "Apple",
+                "sales": 1400
+            },
+            {
+                "id": 8,
+                "grade": "Grade C",
+                "category": "Grains",
+                "subCategory": "Apple",
+                "sales": 1400
+            },
+            {
+                "id": 8,
+                "grade": "Grade C",
+                "category": "Grains",
+                "subCategory": "Apple",
+                "sales": 1400
+            }
+        ]
+    }
+]
+*/

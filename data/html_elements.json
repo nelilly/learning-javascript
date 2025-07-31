@@ -1,42 +1,26 @@
-/* eslint-disable no-unused-expressions */
-/* Randoms */
-
-/* Time */
-const now = new Date();
-const today = `${now.getFullYear()}-${(`0${now.getMonth() + 1}`).slice(-2)}-${(`0${now.getDate()}`).slice(-2)}`;
-
-/* Alternate Random */
-/* True Random */
-function rand(n, timeSeed = null) {
-  const time = timeSeed ? new Date(timeSeed) : new Date();
-  let seed = time.getTime() % 0xffffffff;
-  seed = (0x015a4e35 * seed) % 0x7fffffff;
-  return (seed >> 16) % n;
-}
-
-/* Random */
-const random = rand(8, now);
-
-/* Daily Random */
-const dailyRandom = rand(8, today);
-
-/* Point Random */
-const pointRandom = rand(8, 'December 17, 1995 03:24:00');
-
-
-/* HTML of the Day */
-const elementList = [
+[
   {
     "element": "a",
-    "description": "Defines a hyperlink, which is used to link from one page to another."
+    "description": "Defines a hyperlink, which is used to link from one page to another.",
+    "attributes": [
+      "href",
+      "target",
+      "rel"
+    ]
   },
   {
     "element": "abbr",
-    "description": "Defines an abbreviation or an acronym."
+    "description": "Defines an abbreviation or an acronym.",
+    "attributes": [
+      "title"
+    ]
   },
   {
     "element": "acronym",
     "description": "Defines an acronym.",
+    "attributes": [
+      "title"
+    ],
     "deprecated": true
   },
   {
@@ -58,6 +42,12 @@ const elementList = [
   {
     "element": "audio",
     "description": "Defines sound content.",
+    "attributes": [
+      "controls",
+      "autoplay",
+      "loop",
+      "muted"
+    ],
     "children": [
       "source",
       "track"
@@ -69,7 +59,11 @@ const elementList = [
   },
   {
     "element": "base",
-    "description": "Specifies a base URL for all relative URLs in a document."
+    "description": "Specifies a base URL for all relative URLs in a document.",
+    "attributes": [
+      "href",
+      "target"
+    ]
   },
   {
     "element": "bdi",
@@ -85,8 +79,16 @@ const elementList = [
     "deprecated": true
   },
   {
+    "element": "blink",
+    "description": "Defines blinking text.",
+    "deprecated": true
+  },
+  {
     "element": "blockquote",
-    "description": "Defines a section that is quoted from another source."
+    "description": "Defines a section that is quoted from another source.",
+    "attributes": [
+      "cite"
+    ]
   },
   {
     "element": "body",
@@ -98,11 +100,22 @@ const elementList = [
   },
   {
     "element": "button",
-    "description": "Defines a clickable button."
+    "description": "Defines a clickable button.",
+    "attributes": [
+      "type",
+      "disabled",
+      "form",
+      "name",
+      "value"
+    ]
   },
   {
     "element": "canvas",
-    "description": "Used to draw graphics on the fly via scripting (usually JavaScript)."
+    "description": "Used to draw graphics on the fly via scripting (usually JavaScript).",
+    "attributes": [
+      "width",
+      "height"
+    ]
   },
   {
     "element": "caption",
@@ -118,7 +131,10 @@ const elementList = [
   },
   {
     "element": "cite",
-    "description": "Defines the title of a work."
+    "description": "Defines the title of a work.",
+    "attributes": [
+      "cite"
+    ]
   },
   {
     "element": "code",
@@ -126,7 +142,14 @@ const elementList = [
   },
   {
     "element": "col",
-    "description": "Specifies column properties for each column within a <colgroup> element."
+    "description": "Specifies column properties for each column within a <colgroup> element.",
+    "attributes": [
+      "span",
+      "width"
+    ],
+    "parent": [
+      "colgroup"
+    ]
   },
   {
     "element": "colgroup",
@@ -139,6 +162,9 @@ const elementList = [
   {
     "element": "datalist",
     "description": "Contains a set of <option> elements that represent the permissible or suggested options available to users in other controls.",
+    "attributes": [
+      "id"
+    ],
     "children": [
       "option",
       "optgroup"
@@ -158,21 +184,33 @@ const elementList = [
   {
     "element": "details",
     "description": "Defines additional details that the user can view or hide.",
+    "attributes": [
+      "open"
+    ],
     "children": [
       "summary"
     ]
   },
   {
     "element": "dfn",
-    "description": "Defines a definition term."
+    "description": "Defines a definition term.",
+    "attributes": [
+      "title"
+    ]
   },
   {
     "element": "dialog",
-    "description": "Defines a dialog box or other interactive component."
+    "description": "Defines a dialog box or other interactive component.",
+    "attributes": [
+      "open"
+    ]
   },
   {
     "element": "dir",
     "description": "Defines a directory list.",
+    "attributes": [
+      "compact"
+    ],
     "deprecated": true
   },
   {
@@ -201,7 +239,11 @@ const elementList = [
   {
     "element": "fencedframe",
     "description": "Defines a frame that is not part of the main document flow.",
-    "deprecated": true,
+    "attributes": [
+      "src",
+      "width",
+      "height"
+    ],
     "experimental": true
   },
   {
@@ -228,6 +270,11 @@ const elementList = [
   {
     "element": "font",
     "description": "Defines font, color, and size for text.",
+    "attributes": [
+      "color",
+      "face",
+      "size"
+    ],
     "deprecated": true
   },
   {
@@ -236,16 +283,50 @@ const elementList = [
   },
   {
     "element": "form",
-    "description": "Defines an HTML form for user input."
+    "description": "Defines an HTML form for user input.",
+    "attributes": [
+      "action",
+      "method",
+      "enctype",
+      "target",
+      "autocomplete"
+    ],
+    "children": [
+      "input",
+      "textarea",
+      "select",
+      "button",
+      "label",
+      "fieldset",
+      "legend"
+    ]
   },
   {
     "element": "frame",
     "description": "Defines a frame within a frameset.",
+    "attributes": [
+      "src",
+      "name",
+      "scrolling",
+      "noresize",
+      "frameborder"
+    ],
+    "parent": [
+      "frameset"
+    ],
     "deprecated": true
   },
   {
     "element": "frameset",
     "description": "Defines a set of frames.",
+    "attributes": [
+      "rows",
+      "cols"
+    ],
+    "children": [
+      "frame",
+      "noframes"
+    ],
     "deprecated": true
   },
   {
@@ -290,7 +371,11 @@ const elementList = [
   },
   {
     "element": "html",
-    "description": "Defines the root of an HTML document."
+    "description": "Defines the root of an HTML document.",
+    "attributes": [
+      "lang",
+      "dir"
+    ]
   },
   {
     "element": "i",
@@ -298,15 +383,41 @@ const elementList = [
   },
   {
     "element": "iframe",
-    "description": "Defines an inline frame."
+    "description": "Defines an inline frame.",
+    "attributes": [
+      "src",
+      "height",
+      "width",
+      "name",
+      "sandbox",
+      "allowfullscreen"
+    ]
   },
   {
     "element": "img",
-    "description": "Defines an image."
+    "description": "Defines an image.",
+    "attributes": [
+      "src",
+      "alt",
+      "width",
+      "height",
+      "usemap"
+    ]
   },
   {
     "element": "input",
-    "description": "Defines an input control."
+    "description": "Defines an input control.",
+    "attributes": [
+      "type",
+      "name",
+      "value",
+      "placeholder",
+      "required",
+      "disabled",
+      "readonly",
+      "checked",
+      "autocomplete"
+    ]
   },
   {
     "element": "ins",
@@ -318,7 +429,13 @@ const elementList = [
   },
   {
     "element": "label",
-    "description": "Defines a label for an <input> element."
+    "description": "Defines a label for an <input> element.",
+    "attributes": [
+      "for"
+    ],
+    "parent": [
+      "form"
+    ]
   },
   {
     "element": "legend",
@@ -338,7 +455,14 @@ const elementList = [
   },
   {
     "element": "link",
-    "description": "Defines the relationship between a document and an external resource (most used to link to stylesheets)."
+    "description": "Defines the relationship between a document and an external resource (most used to link to stylesheets).",
+    "attributes": [
+      "rel",
+      "href",
+      "type",
+      "sizes",
+      "media"
+    ]
   },
   {
     "element": "main",
@@ -346,7 +470,13 @@ const elementList = [
   },
   {
     "element": "map",
-    "description": "Defines a client-side image map."
+    "description": "Defines a client-side image map.",
+    "attributes": [
+      "name"
+    ],
+    "children": [
+      "area"
+    ]
   },
   {
     "element": "mark",
@@ -359,19 +489,44 @@ const elementList = [
   },
   {
     "element": "menu",
-    "description": "Defines a list/menu of commands."
+    "description": "Defines a list/menu of commands.",
+    "attributes": [
+      "type",
+      "label"
+    ],
+    "children": [
+      "li"
+    ]
   },
   {
     "element": "meta",
-    "description": "Defines metadata about an HTML document."
+    "description": "Defines metadata about an HTML document.",
+    "attributes": [
+      "name",
+      "content",
+      "http-equiv",
+      "charset"
+    ]
   },
   {
     "element": "meter",
-    "description": "Defines a scalar measurement within a known range (a gauge)."
+    "description": "Defines a scalar measurement within a known range (a gauge).",
+    "attributes": [
+      "min",
+      "max",
+      "low",
+      "high",
+      "optimum",
+      "value"
+    ]
   },
   {
     "element": "nav",
-    "description": "Defines navigation links."
+    "description": "Defines navigation links.",
+    "attributes": [
+      "title",
+      "role"
+    ]
   },
   {
     "element": "nobr",
@@ -394,7 +549,19 @@ const elementList = [
   },
   {
     "element": "object",
-    "description": "Defines an embedded object."
+    "description": "Defines an embedded object.",
+    "attributes": [
+      "data",
+      "type",
+      "width",
+      "height",
+      "name",
+      "usemap",
+      "form"
+    ],
+    "children": [
+      "param"
+    ]
   },
   {
     "element": "ol",
@@ -405,11 +572,20 @@ const elementList = [
   },
   {
     "element": "optgroup",
-    "description": "Defines a group of related options in a drop-down list."
+    "description": "Defines a group of related options in a drop-down list.",
+    "parent": [
+      "select"
+    ]
   },
   {
     "element": "option",
     "description": "Defines an option in a drop-down list.",
+    "attributes": [
+      "value",
+      "label",
+      "selected",
+      "disabled"
+    ],
     "parent": [
       "datalist",
       "optgroup",
@@ -427,6 +603,10 @@ const elementList = [
   {
     "element": "param",
     "description": "Defines a parameter for an object.",
+    "attributes": [
+      "name",
+      "value"
+    ],
     "parent": [
       "object"
     ],
@@ -435,6 +615,10 @@ const elementList = [
   {
     "element": "picture",
     "description": "Defines a container for multiple image resources.",
+    "attributes": [
+      "srcset",
+      "sizes"
+    ],
     "children": [
       "source",
       "img"
@@ -451,11 +635,18 @@ const elementList = [
   },
   {
     "element": "progress",
-    "description": "Represents the progress of a task."
+    "description": "Represents the progress of a task.",
+    "attributes": [
+      "value",
+      "max"
+    ]
   },
   {
     "element": "q",
-    "description": "Defines a short quotation."
+    "description": "Defines a short quotation.",
+    "attributes": [
+      "cite"
+    ]
   },
   {
     "element": "rb",
@@ -503,11 +694,23 @@ const elementList = [
   },
   {
     "element": "script",
-    "description": "Defines a client-side script."
+    "description": "Defines a client-side script.",
+    "attributes": [
+      "src",
+      "type",
+      "async",
+      "defer"
+    ]
   },
   {
     "element": "search",
-    "description": "Defines a search field."
+    "description": "Defines a search field.",
+    "attributes": [
+      "name",
+      "placeholder",
+      "required",
+      "autocomplete"
+    ]
   },
   {
     "element": "section",
@@ -516,6 +719,13 @@ const elementList = [
   {
     "element": "select",
     "description": "Defines a drop-down list.",
+    "attributes": [
+      "name",
+      "size",
+      "multiple",
+      "disabled",
+      "required"
+    ],
     "children": [
       "option",
       "optgroup"
@@ -528,7 +738,13 @@ const elementList = [
   },
   {
     "element": "slot",
-    "description": "Defines a placeholder inside a web component that you can fill with your own markup."
+    "description": "Defines a placeholder inside a web component that you can fill with your own markup.",
+    "attributes": [
+      "name"
+    ],
+    "parent": [
+      "template"
+    ]
   },
   {
     "element": "small",
@@ -537,6 +753,14 @@ const elementList = [
   {
     "element": "source",
     "description": "Specifies multiple media resources for elements such as <video> and <audio>.",
+    "attributes": [
+      "src",
+      "type",
+      "media"
+    ],
+    "children": [
+      "track"
+    ],
     "parent": [
       "audio",
       "video",
@@ -558,7 +782,12 @@ const elementList = [
   },
   {
     "element": "style",
-    "description": "Defines style information for a document."
+    "description": "Defines style information for a document.",
+    "attributes": [
+      "type",
+      "media",
+      "scoped"
+    ]
   },
   {
     "element": "sub",
@@ -578,6 +807,13 @@ const elementList = [
   {
     "element": "table",
     "description": "Defines a table.",
+    "attributes": [
+      "border",
+      "cellpadding",
+      "cellspacing",
+      "width",
+      "height"
+    ],
     "children": [
       "caption",
       "colgroup",
@@ -608,11 +844,26 @@ const elementList = [
   },
   {
     "element": "template",
-    "description": "Defines a container for content that is not rendered when the page loads."
+    "description": "Defines a container for content that is not rendered when the page loads.",
+    "attributes": [
+      "id"
+    ],
+    "children": [
+      "slot"
+    ]
   },
   {
     "element": "textarea",
-    "description": "Defines a multiline input control (text area)."
+    "description": "Defines a multiline input control (text area).",
+    "attributes": [
+      "name",
+      "rows",
+      "cols",
+      "placeholder",
+      "required",
+      "disabled",
+      "readonly"
+    ]
   },
   {
     "element": "tfoot",
@@ -640,7 +891,10 @@ const elementList = [
   },
   {
     "element": "time",
-    "description": "Defines a specific time (or range of time)."
+    "description": "Defines a specific time (or range of time).",
+    "attributes": [
+      "datetime"
+    ]
   },
   {
     "element": "title",
@@ -663,6 +917,13 @@ const elementList = [
   {
     "element": "track",
     "description": "Specifies text tracks for <video> and <audio> elements.",
+    "attributes": [
+      "kind",
+      "src",
+      "srclang",
+      "label",
+      "default"
+    ],
     "parent": [
       "video",
       "audio"
@@ -691,6 +952,14 @@ const elementList = [
   {
     "element": "video",
     "description": "Defines a video or movie.",
+    "attributes": [
+      "src",
+      "controls",
+      "autoplay",
+      "loop",
+      "muted",
+      "poster"
+    ],
     "children": [
       "source",
       "track"
@@ -704,12 +973,4 @@ const elementList = [
     "element": "xmp",
     "description": "Defines preformatted text."
   }
-];
-const randomElement = elementList[rand(elementList.length)];
-
-let go = confirm(`Today's HTML element is <${randomElement.element}>.\n\nDescription: ${randomElement.description}\n\nDo you want to learn more?`);
-if (go) {
-  window.location = `https://developer.mozilla.org/en-US/docs/Web/HTML/Element/${randomElement.element}`;
-}
-
-console.log(random, dailyRandom, pointRandom, randomElement);
+]

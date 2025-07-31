@@ -1,0 +1,622 @@
+[
+  {
+    "name": "accent-color",
+    "description": "Specifies the accent color for UI controls."
+  },
+  {
+    "name": "align-content",
+    "description": "Aligns flex items along the cross axis."
+  },
+  {
+    "name": "align-items",
+    "description": "Aligns flex items along the cross axis."
+  },
+  {
+    "name": "align-self",
+    "description": "Aligns a flex item along the cross axis."
+  },
+  {
+    "name": "all",
+    "description": "Resets all properties (except for 'unicode-bidi' and 'direction') to their initial or inherited value."
+  },
+  {
+    "name": "animation",
+    "description": "Shorthand property for setting all animation properties."
+  },
+  {
+    "name": "animation-delay",
+    "description": "Specifies the delay before the animation starts."
+  },
+  {
+    "name": "animation-direction",
+    "description": "Specifies the direction of the animation."
+  },
+  {
+    "name": "animation-duration",
+    "description": "Specifies the duration of the animation."
+  },
+  {
+    "name": "animation-fill-mode",
+    "description": "Specifies how a CSS animation should apply styles to its target before and after it is executing."
+  },
+  {
+    "name": "animation-iteration-count",
+    "description": "Specifies the number of times an animation should be played."
+  },
+  {
+    "name": "animation-name",
+    "description": "Specifies the name of the animation."
+  },
+  {
+    "name": "animation-play-state",
+    "description": "Specifies whether the animation is running or paused."
+  },
+  {
+    "name": "animation-timing-function",
+    "description": "Specifies the speed curve of the animation."
+  },
+  {
+    "name": "appearance",
+    "description": "Defines the appearance of an element."
+  },
+  {
+    "name": "aspect-ratio",
+    "description": "Defines the aspect ratio of an element."
+  },
+  {
+    "name": "backdrop-filter",
+    "description": "Applies a filter effect to the area behind an element."
+  },
+  {
+    "name": "backface-visibility",
+    "description": "Defines whether the back face of an element is visible when turned towards the user."
+  },
+  {
+    "name": "background",
+    "description": "Shorthand property for setting all background properties."
+  },
+  {
+    "name": "block-size",
+    "description": "Defines the block size of an element."
+  },
+  {
+    "name": "border",
+    "description": "Shorthand property for setting all border properties."
+  },
+  {
+    "name": "bottom",
+    "description": "Defines the bottom position of an element."
+  },
+  {
+    "name": "box-content",
+    "description": "Specifies the box model used for an element."
+  },
+  {
+    "name": "box-shadow",
+    "description": "Applies one or more shadows to an element."
+  },
+  {
+    "name": "break-after",
+    "description": "Specifies the page break behavior after an element."
+  },
+  {
+    "name": "break-before",
+    "description": "Specifies the page break behavior before an element."
+  },
+  {
+    "name": "break-inside",
+    "description": "Specifies the page break behavior inside an element."
+  },
+  {
+    "name": "caption-side",
+    "description": "Specifies the placement of a table caption."
+  },
+  {
+    "name": "caret-color",
+    "description": "Specifies the color of the text input caret."
+  },
+  {
+    "name": "clear",
+    "description": "Specifies whether an element can be moved to the next line."
+  },
+  {
+    "name": "clip-path",
+    "description": "Defines a clipping region for an element."
+  },
+  {
+    "name": "color",
+    "description": "Specifies the text color of an element."
+  },
+  {
+    "name": "column-count",
+    "description": "Specifies the number of columns an element should be divided into."
+  },
+  {
+    "name": "columns",
+    "description": "Shorthand property for setting column-count and column-width."
+  },
+  {
+    "name": "contain",
+    "description": "Defines the containment context for an element."
+  },
+  {
+    "name": "container-type",
+    "description": "Defines the type of container for an element."
+  },
+  {
+    "name": "content",
+    "description": "Generates content before or after an element."
+  },
+  {
+    "name": "content-visibility",
+    "description": "Specifies whether the content of an element is visible or not."
+  },
+  {
+    "name": "counter-increment",
+    "description": "Increments a counter by a specified value."
+  },
+  {
+    "name": "counter-reset",
+    "description": "Resets a counter to a specified value."
+  },
+  {
+    "name": "cursor",
+    "description": "Specifies the type of cursor to be displayed."
+  },
+  {
+    "name": "cx",
+    "description": "Defines the x-axis coordinate of the center of a circle."
+  },
+  {
+    "name": "cy",
+    "description": "Defines the y-axis coordinate of the center of a circle."
+  },
+  {
+    "name": "d",
+    "description": "Defines a path for SVG elements."
+  },
+  {
+    "name": "direction",
+    "description": "Specifies the text direction."
+  },
+  {
+    "name": "display",
+    "description": "Specifies the display behavior of an element."
+  },
+  {
+    "name": "dominant-baseline",
+    "description": "Specifies the dominant baseline for text alignment."
+  },
+  {
+    "name": "empty-cells",
+    "description": "Specifies whether to display borders on empty cells in a table."
+  },
+  {
+    "name": "fill",
+    "description": "Specifies the fill color for SVG elements."
+  },
+  {
+    "name": "filter",
+    "description": "Applies graphical effects to an element."
+  },
+  {
+    "name": "flex",
+    "description": "Shorthand property for setting flex-grow, flex-shrink, and flex-basis."
+  },
+  {
+    "name": "float",
+    "description": "Specifies how an element should float."
+  },
+  {
+    "name": "flood-color",
+    "description": "Specifies the color of a flood effect in SVG."
+  },
+  {
+    "name": "flood-opacity",
+    "description": "Specifies the opacity of a flood effect in SVG."
+  },
+  {
+    "name": "font",
+    "description": "Shorthand property for setting all font properties."
+  },
+  {
+    "name": "forced-color-adjust",
+    "description": "Specifies how to adjust colors in a forced color mode."
+  },
+  {
+    "name": "gap",
+    "description": "Defines the gap between grid or flex items."
+  },
+  {
+    "name": "grid",
+    "description": "Shorthand property for setting grid-template-areas, grid-template-columns, and grid-template-rows."
+  },
+  {
+    "name": "hanging-punctuation",
+    "description": "Specifies whether punctuation should hang outside the box."
+  },
+  {
+    "name": "height",
+    "description": "Specifies the height of an element."
+  },
+  {
+    "name": "hyphenate-character",
+    "description": "Specifies the character used for hyphenation."
+  },
+  {
+    "name": "hyphenate-limit-chars",
+    "description": "Specifies the character limits for hyphenation."
+  },
+  {
+    "name": "hyphens",
+    "description": "Specifies how to handle hyphenation."
+  },
+  {
+    "name": "image-rendering",
+    "description": "Specifies the image rendering algorithm."
+  },
+  {
+    "name": "initial-letter",
+    "description": "Specifies the initial letter of a paragraph."
+  },
+  {
+    "name": "inline-size",
+    "description": "Defines the inline size of an element."
+  },
+  {
+    "name": "isolation",
+    "description": "Specifies the isolation level for an element."
+  },
+  {
+    "name": "justify-content",
+    "description": "Aligns flex items along the main axis."
+  },
+  {
+    "name": "left",
+    "description": "Defines the left position of an element."
+  },
+  {
+    "name": "letter-spacing",
+    "description": "Specifies the spacing between letters."
+  },
+  {
+    "name": "line-height",
+    "description": "Specifies the height of a line box."
+  },
+  {
+    "name": "list-style",
+    "description": "Shorthand property for setting all list style properties."
+  },
+  {
+    "name": "margin",
+    "description": "Shorthand property for setting all margin properties."
+  },
+  {
+    "name": "marker",
+    "description": "Specifies the marker for SVG elements."
+  },
+  {
+    "name": "mask",
+    "description": "Applies a mask to an element."
+  },
+  {
+    "name": "math-style",
+    "description": "Specifies the math style for mathematical expressions."
+  },
+  {
+    "name": "max-height",
+    "description": "Specifies the maximum height of an element."
+  },
+  {
+    "name": "max-width",
+    "description": "Specifies the maximum width of an element."
+  },
+  {
+    "name": "min-height",
+    "description": "Specifies the minimum height of an element."
+  },
+  {
+    "name": "min-width",
+    "description": "Specifies the minimum width of an element."
+  },
+  {
+    "name": "mix-blend-mode",
+    "description": "Specifies how an element should blend with its background."
+  },
+  {
+    "name": "object-fit",
+    "description": "Specifies how an element's content should fit within its box."
+  },
+  {
+    "name": "object-position",
+    "description": "Specifies the position of an element's content within its box."
+  },
+  {
+    "name": "offset",
+    "description": "Shorthand property for setting offset properties."
+  },
+  {
+    "name": "opacity",
+    "description": "Specifies the transparency level of an element."
+  },
+  {
+    "name": "order",
+    "description": "Specifies the order of a flex item in a flex container."
+  },
+  {
+    "name": "orphans",
+    "description": "Specifies the minimum number of lines in a block container that must be left at the bottom of a page."
+  },
+  {
+    "name": "outline",
+    "description": "Shorthand property for setting all outline properties."
+  },
+  {
+    "name": "overflow",
+    "description": "Specifies what happens if content overflows an element's box."
+  },
+  {
+    "name": "overscroll-behavior",
+    "description": "Specifies what happens when an element is scrolled to the edge."
+  },
+  {
+    "name": "padding",
+    "description": "Shorthand property for setting all padding properties."
+  },
+  {
+    "name": "page-break-after",
+    "description": "Specifies the page break behavior after an element."
+  },
+  {
+    "name": "page-break-before",
+    "description": "Specifies the page break behavior before an element."
+  },
+  {
+    "name": "page-break-inside",
+    "description": "Specifies the page break behavior inside an element."
+  },
+  {
+    "name": "paint-order",
+    "description": "Specifies the order in which the fill, stroke, and markers are painted."
+  },
+  {
+    "name": "perspective",
+    "description": "Defines the perspective from which a 3D element is viewed."
+  },
+  {
+    "name": "perspective-origin",
+    "description": "Defines the origin of the perspective view."
+  },
+  {
+    "name": "place-content",
+    "description": "Shorthand property for setting align-content and justify-content."
+  },
+  {
+    "name": "place-items",
+    "description": "Shorthand property for setting align-items and justify-items."
+  },
+  {
+    "name": "place-self",
+    "description": "Shorthand property for setting align-self and justify-self."
+  },
+  {
+    "name": "pointer-events",
+    "description": "Specifies how an element responds to pointer events."
+  },
+  {
+    "name": "position",
+    "description": "Specifies the positioning method of an element."
+  },
+  {
+    "name": "print-color-adjust",
+    "description": "Specifies how colors should be adjusted for printing."
+  },
+  {
+    "name": "quotes",
+    "description": "Specifies the type of quotation marks to use."
+  },
+  {
+    "name": "r",
+    "description": "Defines the radius of a circle or ellipse."
+  },
+  {
+    "name": "resize",
+    "description": "Specifies whether an element is resizable by the user."
+  },
+  {
+    "name": "right",
+    "description": "Defines the right position of an element."
+  },
+  {
+    "name": "rotate",
+    "description": "Specifies the rotation of an element."
+  },
+  {
+    "name": "row-gap",
+    "description": "Defines the gap between rows in a grid or flex container."
+  },
+  {
+    "name": "ruby-align",
+    "description": "Specifies the alignment of ruby annotations."
+  },
+  {
+    "name": "ruby-position",
+    "description": "Specifies the position of ruby annotations."
+  },
+  {
+    "name": "rx",
+    "description": "Defines the x-axis radius of an ellipse."
+  },
+  {
+    "name": "ry",
+    "description": "Defines the y-axis radius of an ellipse."
+  },
+  {
+    "name": "scale",
+    "description": "Specifies the scale transformation of an element."
+  },
+  {
+    "name": "scrollbar-color",
+    "description": "Specifies the color of scrollbars."
+  },
+  {
+    "name": "scrollbar-width",
+    "description": "Specifies the width of scrollbars."
+  },
+  {
+    "name": "shape-rendering",
+    "description": "Specifies the rendering quality of shapes."
+  },
+  {
+    "name": "stop-color",
+    "description": "Specifies the color of a gradient stop."
+  },
+  {
+    "name": "stop-opacity",
+    "description": "Specifies the opacity of a gradient stop."
+  },
+  {
+    "name": "stroke",
+    "description": "Specifies the stroke color for SVG elements."
+  },
+  {
+    "name": "tab-size",
+    "description": "Specifies the width of a tab character."
+  },
+  {
+    "name": "table-layout",
+    "description": "Specifies the layout algorithm for a table."
+  },
+  {
+    "name": "text-align",
+    "description": "Specifies the horizontal alignment of text."
+  },
+  {
+    "name": "text-decoration",
+    "description": "Shorthand property for setting all text decoration properties."
+  },
+  {
+    "name": "text-indent",
+    "description": "Specifies the indentation of the first line of text."
+  },
+  {
+    "name": "text-transform",
+    "description": "Specifies the capitalization of text."
+  },
+  {
+    "name": "text-underline-offset",
+    "description": "Specifies the offset of the underline from the text."
+  },
+  {
+    "name": "text-underline-position",
+    "description": "Specifies the position of the underline."
+  },
+  {
+    "name": "top",
+    "description": "Defines the top position of an element."
+  },
+  {
+    "name": "touch-action",
+    "description": "Specifies how touch events are handled."
+  },
+  {
+    "name": "transform-style",
+    "description": "Specifies the rendering of 3D transformed elements."
+  },
+  {
+    "name": "transition",
+    "description": "Shorthand property for setting all transition properties."
+  },
+  {
+    "name": "transition-delay",
+    "description": "Specifies the delay before the transition starts."
+  },
+  {
+    "name": "transition-duration",
+    "description": "Specifies the duration of the transition."
+  },
+  {
+    "name": "transition-property",
+    "description": "Specifies the name of the CSS property to which the transition is applied."
+  },
+  {
+    "name": "transition-timing-function",
+    "description": "Specifies the timing function of a transition."
+  },
+  {
+    "name": "translate",
+    "description": "Specifies the translation transformation of an element."
+  },
+  {
+    "name": "unicode-bidi",
+    "description": "Specifies the level of embedding or override for bidirectional text."
+  },
+  {
+    "name": "user-modify",
+    "description": "Specifies whether the user can modify the content of an element."
+  },
+  {
+    "name": "user-select",
+    "description": "Specifies whether the user can select text."
+  },
+  {
+    "name": "vector-effect",
+    "description": "Specifies the rendering effect for vector graphics."
+  },
+  {
+    "name": "vertical-align",
+    "description": "Specifies the vertical alignment of an element."
+  },
+  {
+    "name": "view-*-box",
+    "description": "Defines a view box for SVG elements."
+  },
+  {
+    "name": "visibility",
+    "description": "Specifies whether an element is visible or not."
+  },
+  {
+    "name": "white-space",
+    "description": "Specifies how white space inside an element is handled."
+  },
+  {
+    "name": "widows",
+    "description": "Specifies the minimum number of lines in a block container that must be left at the top of a page."
+  },
+  {
+    "name": "width",
+    "description": "Specifies the width of an element."
+  },
+  {
+    "name": "will-change",
+    "description": "Hints to the browser about what properties will change in the future."
+  },
+  {
+    "name": "word-break",
+    "description": "Specifies how words should break when reaching the end of a line."
+  },
+  {
+    "name": "word-spacing",
+    "description": "Specifies the spacing between words."
+  },
+  {
+    "name": "writing-mode",
+    "description": "Specifies the direction in which text is written."
+  },
+  {
+    "name": "x",
+    "description": "Defines the x-axis coordinate of an element."
+  },
+  {
+    "name": "y",
+    "description": "Defines the y-axis coordinate of an element."
+  },
+  {
+    "name": "z-index",
+    "description": "Specifies the stack order of an element."
+  },
+  {
+    "name": "zoom",
+    "description": "Specifies the zoom level of an element."
+  }
+]

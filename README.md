@@ -7,6 +7,8 @@ A 12 week introduction to JavaScript curriculum for weekly JavaScript Discussion
 -  [JavaScript: The Good Parts](https://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742) (2008)
 -  [JavaScript Patterns](https://www.amazon.com/JavaScript-Patterns-Better-Applications-Coding/dp/0596806752) by Stoyan Stefanov (2010)
 -  [Learning JavaScript Design Patterns](https://www.amazon.com/Learning-JavaScript-Design-Patterns-Developers/dp/1449331815) by Addy Osmani (2012)
+    - See also [patterns.dev](https://www.patterns.dev/) by Addy Osmani
+- [Composing Software](https://medium.com/javascript-scene/composing-software-the-book-f31c77fc3ddc) by Eric Erikson (2019)
 
 ### Additional Reading
 -  [JavaScript: the Definitive Guide, 7th edition](https://www.amazon.com/JavaScript-Definitive-Most-Used-Programming-Language-dp-1491952024/dp/1491952024/) (2020)
@@ -17,7 +19,7 @@ A 12 week introduction to JavaScript curriculum for weekly JavaScript Discussion
 -   Skim the chapter headers, read quickly, and then read again more throughoughly.
 -   Don't skim over the code examples. Read all the code and try to understand how it works.
 -   Have an open JavaScript console nearby to test the code that you're reading.
--   Watch videos at faster than normal speed, up to 2x speed.
+-   Watch videos at faster than normal speed, up to &times;2 speed.
 -   Take Coursera&rsquo;s [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn/home/welcome) course.
 
 ### Programming Tips

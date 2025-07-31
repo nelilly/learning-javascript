@@ -2,44 +2,129 @@
   "planets": [
     {
       "name": "Mercury",
-      "moons": []
+      "satellites": [],
+      "elements": {
+        "axis": 0.38709893,
+        "eccentricity": 0.20563069,
+        "inclination": 7.00487,
+        "ascendingNodeLongitude": 48.33167,
+        "perihelion": 29.12412,
+        "meanAnomaly": 174.79632,
+        "epoch": 2451545.0
+      }
     },
     {
       "name": "Venus",
-      "moons": []
+      "satellites": [],
+      "elements": {
+        "axis": 0.72332102,
+        "eccentricity": 0.00677323,
+        "inclination": 3.39471,
+        "ascendingNodeLongitude": 76.68069,
+        "perihelion": 108.20893,
+        "meanAnomaly": 50.11574,
+        "epoch": 2451545.0
+      }
     },
     {
       "name": "Earth",
-      "moons": [
+      "satellites": [
         "Moon"
-      ]
+      ],
+      "elements": {
+        "axis": 1.00000011,
+        "eccentricity": 0.01671022,
+        "inclination": 0.00005,
+        "ascendingNodeLongitude": -11.26064,
+        "perihelion": 147.09874,
+        "meanAnomaly": 357.52911,
+        "epoch": 2451545.0
+      }
     },
     {
       "name": "Mars",
-      "moons": [
+      "satellites": [
         "Deimos",
         "Phobos"
-      ]
+      ],
+      "elements": {
+        "axis": 1.52366231,
+        "eccentricity": 0.09341233,
+        "inclination": 1.85061,
+        "ascendingNodeLongitude": 49.55844,
+        "perihelion": 206.1056,
+        "meanAnomaly": 19.41367,
+        "epoch": 2451545.0
+      }
     },
     {
       "name": "Ceres",
-      "moons": []
+      "satellites": [],
+      "elements": {
+        "axis": 2.767205,
+        "eccentricity": 0.075839,
+        "inclination": 10.586,
+        "ascendingNodeLongitude": 80.329,
+        "perihelion": 385.5,
+        "meanAnomaly": 73.1,
+        "epoch": 2451545.0
+      }
     },
     {
       "name": "Pallas",
-      "moons": []
-    },
-    {
-      "name": "Vesta",
-      "moons": []
+      "satellites": [],
+      "elements": {
+        "axis": 2.773,
+        "eccentricity": 0.230,
+        "inclination": 34.8,
+        "ascendingNodeLongitude": 100.5,
+        "perihelion": 385.5,
+        "meanAnomaly": 73.1,
+        "epoch": 2451545.0
+      }
     },
     {
       "name": "Juno",
-      "moons": []
+      "satellites": [],
+      "elements": {
+        "axis": 2.669,
+        "eccentricity": 0.255,
+        "inclination": 12.3,
+        "ascendingNodeLongitude": 100.5,
+        "perihelion": 385.5,
+        "meanAnomaly": 73.1,
+        "epoch": 2451545.0
+      }
+    },
+    {
+      "name": "Vesta",
+      "satellites": [],
+      "elements": {
+        "axis": 2.367,
+        "eccentricity": 0.093,
+        "inclination": 7.1,
+        "ascendingNodeLongitude": 103.5,
+        "perihelion": 385.5,
+        "meanAnomaly": 73.1,
+        "epoch": 2451545.0
+      }
+    },
+    {
+      "name": "Juno",
+      "satellites": [],
+      "elements": {
+        "axis": 2.669,
+        "eccentricity": 0.255,
+        "inclination": 12.3,
+        "ascendingNodeLongitude": 100.5,
+        "perihelion": 385.5,
+        "meanAnomaly": 73.1,
+        "epoch": 2451545.0
+      }
     },
     {
       "name": "Jupiter",
-      "moons": [
+      "satellites": [
         "Metis",
         "Adrastea",
         "Amalthea",
@@ -103,11 +188,20 @@
         "Callirrhoe",
         "Cyllene",
         "S/2003 J2"
-      ]
+      ],
+      "elements": {
+        "axis": 5.202603,
+        "eccentricity": 0.04849485,
+        "inclination": 1.303,
+        "ascendingNodeLongitude": 100.46435,
+        "perihelion": 14.331,
+        "meanAnomaly": 19.65053,
+        "epoch": 2451545.0
+      }
     },
     {
       "name": "Saturn",
-      "moons": [
+      "satellites": [
         "Tarqeq",
         "Pan",
         "Daphnis",
@@ -169,11 +263,20 @@
         "Ymir",
         "Loge",
         "Fornjot"
-      ]
+      ],
+      "elements": {
+        "axis": 9.55490959,
+        "eccentricity": 0.05550825,
+        "inclination": 2.4886,
+        "ascendingNodeLongitude": 113.6655,
+        "perihelion": 92.86136,
+        "meanAnomaly": 317.0207,
+        "epoch": 2451545.0
+      }
     },
     {
       "name": "Uranus",
-      "moons": [
+      "satellites": [
         "Cordelia",
         "Ophelia",
         "Bianca",
@@ -201,11 +304,20 @@
         "Prospero",
         "Setebos",
         "Ferdinand"
-      ]
+      ],
+      "elements": {
+        "axis": 19.21844606,
+        "eccentricity": 0.04638122,
+        "inclination": 0.773,
+        "ascendingNodeLongitude": 74.00595,
+        "perihelion": 170.96424,
+        "meanAnomaly": 142.2386,
+        "epoch": 2451545.0
+      }
     },
     {
       "name": "Neptune",
-      "moons": [
+      "satellites": [
         "Naiad",
         "Thalassa",
         "Despina",
@@ -219,34 +331,92 @@
         "Laomedeia",
         "Psamathe",
         "Neso"
-      ]
+      ],
+      "elements": {
+        "axis": 30.11038687,
+        "eccentricity": 0.00945526,
+        "inclination": 1.770,
+        "ascendingNodeLongitude": 131.784,
+        "perihelion": 44.97135,
+        "meanAnomaly": 256.228,
+        "epoch": 2451545.0
+      }
     },
     {
       "name": "Pluto",
-      "moons": [
+      "satellites": [
         "Charon",
         "Styx",
         "Nix",
         "Kerberos",
         "Hydra"
-      ]
+      ],
+      "elements": {
+        "axis": 39.48168677,
+        "eccentricity": 0.24880766,
+        "inclination": 17.14175,
+        "ascendingNodeLongitude": 110.30347,
+        "perihelion": 224.06676,
+        "meanAnomaly": 14.53,
+        "epoch": 2451545.0
+      }
     },
     {
       "name": "Haumea",
-      "moons": [
+      "satellites": [
         "Namaka",
         "Hi'iaka"
-      ]
+      ],
+      "elements": {
+        "axis": 43.1953125,
+        "eccentricity": 0.189,
+        "inclination": 28.962,
+        "ascendingNodeLongitude": 96.999,
+        "perihelion": 197.5,
+        "meanAnomaly": 0.0,
+        "epoch": 2451545.0
+      }
     },
     {
       "name": "Makemake",
-      "moons": []
+      "satellites": [],
+      "elements": {
+        "axis": 45.7946,
+        "eccentricity": 0.159,
+        "inclination": 28.963,
+        "ascendingNodeLongitude": 96.999,
+        "perihelion": 197.5,
+        "meanAnomaly": 0.0,
+        "epoch": 2451545.0
+      }
     },
     {
       "name": "Eris",
-      "moons": [
+      "satellites": [
         "Dysnomia"
-      ]
+      ],
+      "elements": {
+        "axis": 67.781,
+        "eccentricity": 0.441,
+        "inclination": 44.041,
+        "ascendingNodeLongitude": 149.559,
+        "perihelion": 96.4,
+        "meanAnomaly": 0.0,
+        "epoch": 2451545.0
+      }
+    },
+    {
+      "name": "Sedna",
+      "satellites": [],
+      "elements": {
+        "axis": 506.0,
+        "eccentricity": 0.859,
+        "inclination": 11.934,
+        "ascendingNodeLongitude": 113.0,
+        "perihelion": 76.0,
+        "meanAnomaly": 0.0,
+        "epoch": 2451545.0
+      }
     }
   ]
 }

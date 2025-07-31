@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Sandbox Console</title>
+  <style>
+    html {
+      font-family: Arial, sans-serif;
+      line-height: 1.5;
+    }
+    body {
+      background-color: #111;
+      border: 1px solid #444;
+      border-width: 2px 1px 1px 2px;
+      color: #ccc;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      color: #fff;
+      font-size: 1rem;
+      font-weight: normal;
+      margin: 0.5rem;
+    }
+    main {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      height: 100vh;
+    }
+    textarea,
+    .input {
+      background-color: #111;
+      border: 1px solid #444;
+      border-width: 2px 1px 1px 2px;
+      color: #ccc;
+      font-family: monospace;
+      font-size: 1rem;
+      padding: 1rem 1rem 4rem;
+      width: 100%;
+      outline: none;
+      height: 100vh;
+      box-sizing: border-box;
+      resize: none;
+    }
+    #submit {
+      background-color: #444;
+      border: 1px solid #333;
+      color: #999;
+      cursor: pointer;
+      margin: 0;
+      padding: 1rem;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      text-align: right;
+      &:hover,
+      &:focus {
+        background-color: #333;
+        border: 1px solid #333;
+        outline: none;
+      }
+      &:active {
+        background-color: #555;
+        border: 1px solid #777;
+        color: #fff;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <textarea id="input" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">const array1 = [1, 2, 3, 4];
+
+// 0 + 1 + 2 + 3 + 4
+const initialValue = 0;
+const sumWithInitial = array1.reduce(
+  (accumulator, currentValue) =&gt; accumulator + currentValue,
+  initialValue,
+);
+
+console.log(sumWithInitial);
+// Expected output: 10</textarea>
+    <textarea id="output" readonly></textarea>
+    <button id="submit">Run &#10169;</button>
+  </main>
+  <script>
+    const input = document.getElementById('input');
+    const output = document.getElementById('output');
+    const submitButton = document.getElementById('submit');
+
+    window.addEventListener('DOMContentLoaded', () => {
+      const savedInput = localStorage.getItem('console_input');
+      const savedOutput = localStorage.getItem('console_output');
+      if (savedInput !== null) input.value = savedInput;
+      if (savedOutput !== null) output.value = savedOutput;
+    });
+
+    submitButton.addEventListener('click', () => {
+      let consoleOutput = '';
+      const originalConsoleLog = console.log;
+
+      /* Override console.log to capture output */
+      console.log = function(...args) {
+        const message = args.map(arg => typeof arg === 'object' ? JSON.stringify(arg) : String(arg)).join(' ');
+        consoleOutput += message + '\n';
+        originalConsoleLog.apply(console, args);
+      };
+
+      try {
+        const result = eval(input.value);
+        if (consoleOutput) {
+          output.value = consoleOutput.trim();
+        } else {
+          output.value = result === undefined ? '' : String(result);
+        }
+      } catch (e) {
+        output.value = 'Error: ' + e.message;
+      }
+
+      console.log = originalConsoleLog;
+
+      /* Store input and output in localStorage */
+      localStorage.setItem('console_input', input.value);
+      localStorage.setItem('console_output', output.value);
+    });
+
+    window.onload = () => {
+      input.focus();
+      const savedInput = localStorage.getItem('console_input');
+      if (savedInput !== null) input.value = savedInput;
+    };
+
+  </script>
+</body>
+</html>
